@@ -1,0 +1,17 @@
+include $(SRC)/mess/messcore.mak
+
+BUSES += CENTRONICS
+
+CPUS += M6805
+CPUS += UPD7810
+
+DRVLIBS += $(MESS_DRIVERS)/dummy_centronics.o \
+	$(MAME_MACHINE)/steppers.o  \
+
+MACHINES += E05A03
+MACHINES += E05A30
+MACHINES += EEPROMDEV
+
+SOUNDS += BEEP
+SOUNDS += DAC
+SOUNDS += SPEAKER
