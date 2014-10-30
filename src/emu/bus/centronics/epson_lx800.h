@@ -18,6 +18,9 @@
 #include "ctronics.h"
 #include "cpu/upd7810/upd7810.h"
 #include "machine/e05a03.h"
+#include "machine/e05a30.h"
+#include "machine/eepromser.h"
+#include "machine/steppers.h"
 #include "sound/beep.h"
 
 
@@ -61,7 +64,6 @@ protected:
 	virtual void device_start();
 	virtual void device_reset();
 
-private:
 	required_device<cpu_device> m_maincpu;
 	required_device<beep_device> m_beep;
 };
@@ -90,6 +92,53 @@ public:
 
 	// optional information overrides
 	virtual const rom_entry *device_rom_region() const;
+	virtual machine_config_constructor device_mconfig_additions() const;
+	virtual ioport_constructor device_input_ports() const;
+
+	required_device<eeprom_serial_93cxx_device> m_eeprom;
+
+	DECLARE_READ8_MEMBER(porta_r);
+	DECLARE_WRITE8_MEMBER(porta_w);
+	DECLARE_READ8_MEMBER(portb_r);
+	DECLARE_WRITE8_MEMBER(portb_w);
+	DECLARE_READ8_MEMBER(portc_r);
+	DECLARE_WRITE8_MEMBER(portc_w);
+
+	/* ADC */
+	DECLARE_READ8_MEMBER(an0_r);
+	DECLARE_READ8_MEMBER(an1_r);
+	DECLARE_READ8_MEMBER(an2_r);
+	DECLARE_READ8_MEMBER(an3_r);
+	DECLARE_READ8_MEMBER(an4_r);
+	DECLARE_READ8_MEMBER(an5_r);
+	DECLARE_READ8_MEMBER(an6_r);
+	DECLARE_READ8_MEMBER(an7_r);
+
+	/* fake memory I/O to get past memory reset check */
+	DECLARE_READ8_MEMBER(fakemem_r);
+	DECLARE_WRITE8_MEMBER(fakemem_w);
+
+	/* GATE ARRAY */
+	DECLARE_WRITE8_MEMBER(pf_stepper);
+	DECLARE_WRITE8_MEMBER(cr_stepper);
+	DECLARE_WRITE_LINE_MEMBER(e05a30_ready);
+
+	/* Panel buttons */
+	DECLARE_INPUT_CHANGED_MEMBER(online_sw);
+
+protected:
+	// device-level overrides
+	virtual void device_start();
+	virtual void device_reset();
+
+private:
+	int m_93c06_clk;
+	int m_93c06_cs;
+	int m_pf_pos_abs;
+	int m_pf_pos_prev;
+	int m_cr_pos_abs;
+	int m_cr_pos_prev;
+	UINT8 m_fakemem;
 };
 
 

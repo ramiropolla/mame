@@ -11,6 +11,30 @@
 #include "upd7810.h"
 #include "upd7810_macros.h"
 
+extern int upd7810_callret;
+static int callret_calls = 0;
+static int callret_rets = 0;
+static void print_calls(unsigned short pc)
+{
+	if (!upd7810_callret)
+		return;
+	callret_calls++;
+	fprintf(stderr, "%04x: >", pc);
+	for (int i = 0; i < (callret_calls - callret_rets); i++)
+		fprintf(stderr, " ");
+	fprintf(stderr, " calls-rets: %d\n",  callret_calls - callret_rets);
+}
+static void print_rets(unsigned short pc)
+{
+	if (!upd7810_callret)
+		return;
+	callret_rets++;
+	fprintf(stderr, "%04x: <", pc);
+	for (int i = 0; i < (callret_calls - callret_rets); i++)
+		fprintf(stderr, " ");
+	fprintf(stderr, " calls-rets: %d\n",  callret_calls - callret_rets);
+}
+
 void upd7810_device::illegal()
 {
 	logerror("uPD7810 '%s': illegal opcode %02x at PC:%04x\n", tag(), OP, PC);
@@ -184,6 +208,8 @@ void upd7810_device::CALB()
 	WM( SPD, PCL );
 
 	PC = BC;
+
+	print_calls(PC);
 }
 
 /* 48 2a: 0100 1000 0010 1010 */
@@ -8338,6 +8364,8 @@ void upd7810_device::CALL_w()
 	WM( SPD, PCL );
 
 	PC = w.w.l;
+
+	print_calls(PC);
 }
 
 /* 41: 0100 0001 */
@@ -9043,6 +9071,8 @@ void upd7810_device::CALF()
 	WM( SPD, PCL );
 
 	PCD = w.d;
+
+	print_calls(PC);
 }
 
 /* 80: 100t tttt */
@@ -9060,6 +9090,8 @@ void upd7810_device::CALT()
 
 	PCL=RM(w.w.l);
 	PCH=RM(w.w.l+1);
+
+	print_calls(PC);
 }
 
 /* a0: 1010 0000 */
@@ -9255,6 +9287,8 @@ void upd7810_device::RET()
 	SP++;
 	PCH = RM( SPD );
 	SP++;
+
+	print_rets(PC);
 }
 
 /* b9: 1011 1001 */
@@ -9265,6 +9299,8 @@ void upd7810_device::RETS()
 	PCH = RM( SPD );
 	SP++;
 	PSW|=SK;    /* skip one instruction */
+
+	print_rets(PC);
 }
 
 /* ba: 1011 1010 */
