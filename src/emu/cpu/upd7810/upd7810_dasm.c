@@ -5443,6 +5443,11 @@ static offs_t Dasm( char *buffer, offs_t pc, const struct dasm_s *dasmXX, const 
 	return idx | flags | DASMFLAG_SUPPORTED;
 }
 
+offs_t upd7810Dasm( char *buffer, offs_t pc, const UINT8 *oprom, const UINT8 *opram )
+{
+	return Dasm( buffer, pc, dasmXX_7810, oprom, opram, 1 );
+}
+
 CPU_DISASSEMBLE( upd7810 )
 {
 	return Dasm( buffer, pc, dasmXX_7810, oprom, opram, 1 );

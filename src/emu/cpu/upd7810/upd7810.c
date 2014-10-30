@@ -703,10 +703,237 @@ void upd7810_device::WP(offs_t port, UINT8 data)
 	}
 }
 
+offs_t upd7810Dasm(char *buffer, offs_t pc, const UINT8 *oprom, const UINT8 *opram);
+
+int upd7810_callret = 0;
+
 void upd7810_device::upd7810_take_irq()
 {
 	UINT16 vector = 0;
 	int irqline = 0;
+
+#define pFUNC(start, end, name) \
+		} else if (PC == start) { \
+			fprintf(stderr, "PC: %04x - "name"();\n", PC); \
+		} else if (PC >= start && PC <= end) { \
+
+{
+	if        (PC == 0x2ced) {
+		fprintf(stderr, "Waiting for m_pf_pos_abs... ");
+	} else if (PC == 0x2cf1) {
+		fprintf(stderr, "OK\n");
+	} else if (PC == 0x2cf7) {
+		fprintf(stderr, "getting 1s of paper... ");
+	} else if (PC == 0x2cf8) {
+		fprintf(stderr, "OK\n");
+	} else if (PC == 0x2d02) {
+		fprintf(stderr, "blinking... ");
+	} else if (PC == 0x2d03) {
+		fprintf(stderr, "OK\n");
+	} else if (PC == 0x0ef3) {
+		fprintf(stderr, "left loop at 0ef3\n");
+	} else if (PC == 0x2f96) {
+		fprintf(stderr, "waiting one 1s... ");
+	} else if (PC == 0x2fa2) {
+		fprintf(stderr, "OK\n");
+	} else if (PC == 0x2fa5) {
+		fprintf(stderr, "one_short_beep()... ");
+	} else if (PC == 0x2fa6) {
+		fprintf(stderr, "OK\n");
+		fprintf(stderr, "sw_online_wait()... ");
+	} else if (PC == 0x2fa7) {
+		fprintf(stderr, "OK\n");
+	} else if (PC == 0x0eff) {
+		fprintf(stderr, "sw_online_wait() again... ");
+	} else if (PC == 0x0f00) {
+		fprintf(stderr, "OK\n");
+	} else if (PC == 0x01b2) {
+		fprintf(stderr, "left func_0F5B()\n");
+	} else if (PC == 0x01c4) {
+		fprintf(stderr, "01c4 OK\n");
+	} else if (PC == 0x1084) {
+		fprintf(stderr, "Beep Beep Motherfucker!\n");
+	}
+}
+
+#if 0
+{
+	static int has_started = 1;
+//	if (PC == 0x0000)
+	if (PC == 0x0000)
+		has_started = 1;
+	if (RM(PC) == 0xff) {
+		fprintf(stderr, "PC: %04x - DEAD\n", PC);
+		exit(-1);
+	}
+	if (has_started) {
+		static int print_block = 0;
+		if        (RM(PC) == 0x80) {
+			fprintf(stderr, "PC: %04x - delay(%d);\n", PC, C);
+		} else if (PC >= 0x0FD7 && PC <= 0x0FE0) {
+			fprintf(stderr, "PC: %04x - A %02x B %02x\n", PC, A, B);
+		} else if (PC >= 0x002b && PC <= 0x0040) {
+			/* delay */
+		} else if (RM(PC) == 0x40 && RM(PC+1) == 0xa7 && RM(PC+2) == 0x05) {
+			fprintf(stderr, "PC: %04x - memset(0x%04x, 0x%02x, 0x%04x);\n", PC, EA, A, B*0x100 + C);
+		} else if (PC >= 0x05a6 && PC <= 0x05b2) {
+			/* memset */
+		} else if (RM(PC) == 0x40 && RM(PC+1) == 0x84 && RM(PC+2) == 0x10) {
+			fprintf(stderr, "PC: %04x - beep60();\n", PC);
+		} else if (PC >= 0x1084 && PC <= 0x109a) {
+			/* beep60 */
+		} else if (RM(PC) == 0x40 && RM(PC+1) == 0x27 && RM(PC+2) == 0x0D) {
+			fprintf(stderr, "PC: %04x - 93c06.READ();\n", PC);
+		} else if (PC >= 0x0D27 && PC <= 0x0D51) {
+			/* 93c06.READ() */
+		} else if (RM(PC) == 0x40 && RM(PC+1) == 0x52 && RM(PC+2) == 0x0D) {
+			fprintf(stderr, "PC: %04x - 93c06.WRITE();\n", PC);
+		} else if (PC >= 0x0D52 && PC <= 0x0D66) {
+			/* 93c06.WRITE() */
+		} else if (RM(PC) == 0x40 && RM(PC+1) == 0x67 && RM(PC+2) == 0x0D) {
+			fprintf(stderr, "PC: %04x - 93c06.ERASE();\n", PC);
+		} else if (RM(PC) == 0x40 && RM(PC+1) == 0x6B && RM(PC+2) == 0x0D) {
+			fprintf(stderr, "PC: %04x - 93c06.ERAL();\n", PC);
+		} else if (RM(PC) == 0x40 && RM(PC+1) == 0x6F && RM(PC+2) == 0x0D) {
+			fprintf(stderr, "PC: %04x - 93c06.WEN();\n", PC);
+		} else if (RM(PC) == 0x40 && RM(PC+1) == 0x7A && RM(PC+2) == 0x0D) {
+			fprintf(stderr, "PC: %04x - 93c06.WDS();\n", PC);
+		} else if (PC >= 0x0D67 && PC <= 0x0DB8) {
+			/* 93c06.WRITE() */
+		} else if (RM(PC) == 0x40 && RM(PC+1) == 0x2B && RM(PC+2) == 0x02) {
+			fprintf(stderr, "PC: %04x - wait_for_ADC();\n", PC);
+		} else if (PC >= 0x022B && PC <= 0x0232) {
+			/* wait_for_ADC() */
+		} else if (PC == 0x1044 || PC == 0x1047 || PC == 0x104a) {
+			/* error beeps */
+			int a = 0, b = 0;
+			switch(PC) {
+			case 0x1044: a = 4; b = 2; break;
+			case 0x1047: a = 5; b = 1; break;
+			case 0x104a: a = 2; b = 3; break;
+			}
+			fprintf(stderr, "PC: %04x - beep(%d * %d);\n", PC, a, b);
+		} else if (PC > 0x104A && PC <= 0x1079) {
+			/* error beeps */
+		} else if (RM(PC) == 0x8D) {
+			fprintf(stderr, "PC: %04x - check_gate_array_input(); in\n", PC);
+		} else if (PC == 0x20CD || PC == 0x208D || PC == 0x2091 || PC == 0x2098) {
+			fprintf(stderr, "PC: %04x - check_gate_array_input(); out\n", PC);
+#if 0
+		} else if (PC >= 0x2089 && PC <= 0x20CD) {
+			/* check_gate_array_input */
+#endif
+		} else if (PC == 0x010A) {
+			fprintf(stderr, "PC: %04x - SKIT FAD %d\n", PC, C);
+		} else if (PC >= 0x010C && PC <= 0x0110) {
+			/* SKIT FAD */
+		} else if (RM(PC) == 0x31) {
+			if (!print_block) {
+				fprintf(stderr, "PC: %04x - BLOCK [0x%04x]->[0x%04x] [0x%02x]\n", PC, HL, DE, C);
+				print_block = 1;
+			}
+//		} else if (PC == 0x7ba2 || PC == 0x7ba3 || PC == 0x7ba4 || PC == 0x7ba7 /* || PC == 0x7b9c */) {
+//			/* don't print */ // HACK, main loop
+		} else if (PC == 0x7C5E || PC == 0x7C62 || PC == 0x7C66 || PC == 0x7C6A) {
+			fprintf(stderr, "PC: %04x - stepper_vref(%02x);\n", PC, RM(PC+2)>>3);
+		} else if (PC >= 0x7C5E && PC <= 0x7C6D) {
+			/* stepper_vref */
+		} else if (PC == 0x0009 || PC == 0x000A || PC == 0x9817) {
+			/* timer1 */
+		} else if (PC == 0x0C0F) {
+			fprintf(stderr, "PC: %04x - timer1_0(); in\n", PC);
+		} else if (PC == 0x0C15) {
+			fprintf(stderr, "PC: %04x - timer1_0(); out\n", PC);
+		} else if (PC >= 0x0C0F && PC <= 0x0C15) {
+			/* timer1_0 */
+		} else if (PC == 0x7A5A) {
+			fprintf(stderr, "PC: %04x - timer1_1(); in\n", PC);
+		} else if (PC == 0x7A69) {
+			fprintf(stderr, "PC: %04x - timer1_1(); out\n", PC);
+		} else if (PC >= 0x7A5A && PC <= 0x7A69) {
+			/* timer1_1 */
+		} else if (PC == 0x7A04) {
+			fprintf(stderr, "PC: %04x - timer1_2 in, ECNT 0x%04x\n", PC, ECNT);
+		} else if (PC == 0x7A33 || PC == 0x7A15) {
+			fprintf(stderr, "PC: %04x - timer1_2 out\n", PC);
+//		} else if (PC >= 0x7A04 && PC <= 0x7A33) {
+//			/* timer1_2 */
+#if 0
+		} else if (PC == 0x7A34) {
+			PAIR ea1e = m_va;
+			PAIR ea0f = m_va;
+			ea1e.b.l = 0x1e;
+			ea0f.b.l = 0x0f;
+			fprintf(stderr, "PC: %04x - func_7A34(); VV[0x1e] %02x, VV[0x0f] %02x\n", PC, RM(ea1e.d), RM(ea0f.d));
+		} else if (PC >= 0x7A34 && PC <= 0x7A59) {
+			/* func_7A34 */
+#endif
+		pFUNC(0x7A5A, 0x7A69, "timer1_1")
+//		pFUNC(0x7A6A, 0x7A98, "func_7A6A")
+//		pFUNC(0x7A99, 0x7AC3, "func_7A99")
+#if 0
+		} else if (PC == 0x7AC4) {
+			PAIR ea00 = m_va;
+			PAIR ea0f = m_va;
+			PAIR ea1d = m_va;
+			PAIR ea1f = m_va;
+			ea00.b.l = 0x00;
+			ea0f.b.l = 0x0f;
+			ea1d.b.l = 0x1d;
+			ea1f.b.l = 0x1f;
+			fprintf(stderr, "PC: %04x - func_7AC4(); VV[0x00] %02x, VV[0x0f] %02x, VV[0x1d] %02x, VV[0x1f] %02x\n", PC,
+			        RM(ea00.d), RM(ea0f.d), RM(ea1d.d), RM(ea1f.d));
+		} else if (PC >= 0x7AC4 && PC <= 0x7B1C) {
+			/* func_7AC4 */
+#endif
+//		pFUNC(0x7B1D, 0x7B4C, "func_7B1D")
+//		pFUNC(0x1003, 0x1009, "sw_online")
+		pFUNC(0x0FD7, 0x0FE3, "read_stable_PC")
+		pFUNC(0x326F, 0x3288, "pf_step")
+		pFUNC(0x7B4D, 0x7B63, "cr_step")
+		pFUNC(0x7B95, 0x7B9B, "sensor_home_position")
+		pFUNC(0x0FBF, 0x0FC7, "read_stable_PA")
+		} else if (PC == 0x0041) {
+			fprintf(stderr, "PC: %04x - [0x%04x]--;\n", PC, HL);
+		} else if (PC >= 0x0041 && PC <= 0x0046) {
+			/* HL-- */
+		} else if (PC == 0x0C16) {
+			fprintf(stderr, "PC: %04x - check_voltage();\n", PC);
+		} else if (PC == 0x0C2A) {
+			fprintf(stderr, "PC: %04x - irq_nmi();\n", PC);
+		} else if (PC >= 0x0C16 && PC <= 0x0C47) {
+			/* check_voltage and irq_nmi */
+		} else if (PC == 0x3165) {
+			PAIR ea01 = m_va;
+			ea01.b.l = 0x01;
+			fprintf(stderr, "PC: 3165 _ OFFIW   VV:01,$30: %02x\n", RM(ea01.d));
+		} else if (!(PSW & SK)) {
+			char out_buffer[0x100];
+			UINT8 rom_buffer[0x10];
+			for (int i = 0; i < sizeof(rom_buffer); i++)
+				rom_buffer[i] = RM(PC+i);
+			upd7810Dasm(out_buffer, PC, rom_buffer, rom_buffer);
+			fprintf(stderr, "PC: %04x _ %s\n", PC, out_buffer);
+		}
+		if (print_block && !(RM(PC) == 0x31))
+			print_block = 0;
+	}
+}
+#else
+	if (RM(PC) == 0xff) {
+		fprintf(stderr, "PC: %04x - DEAD\n", PC);
+		exit(-1);
+#if 0
+	} else {
+		char out_buffer[0x100];
+		UINT8 rom_buffer[0x10];
+		for (int i = 0; i < sizeof(rom_buffer); i++)
+			rom_buffer[i] = RM(PC+i);
+		upd7810Dasm(out_buffer, PC, rom_buffer, rom_buffer);
+		fprintf(stderr, "PC: %04x _ %s\n", PC, out_buffer);
+#endif
+	}
+#endif
 
 	/* global interrupt disable? */
 	if (0 == IFF)
