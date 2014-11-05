@@ -237,13 +237,16 @@ static MACHINE_CONFIG_FRAGMENT( epson_ap2000 )
 	MCFG_UPD7810_AN5(READ8(epson_ap2000_t, an5_r))
 	MCFG_UPD7810_AN6(READ8(epson_ap2000_t, an6_r))
 	MCFG_UPD7810_AN7(READ8(epson_ap2000_t, an7_r))
+	MCFG_UPD7810_CO0(WRITELINE(epson_ap2000_t, co0_w))
+	MCFG_UPD7810_CO1(WRITELINE(epson_ap2000_t, co1_w))
 
 	MCFG_DEFAULT_LAYOUT(layout_lx800)
 
 	/* audio hardware */
 	MCFG_SPEAKER_STANDARD_MONO("mono")
 	MCFG_SOUND_ADD("beeper", BEEP, 0)
-	MCFG_SOUND_ROUTE(ALL_OUTPUTS, "mono", 0.05)
+	MCFG_SOUND_ADD("speaker", SPEAKER_SOUND, 0)
+	MCFG_SOUND_ROUTE(ALL_OUTPUTS, "mono", 0.25)
 
 	/* gate array */
 	MCFG_DEVICE_ADD("ic3b", E05A30, 0)
@@ -464,6 +467,7 @@ epson_lx810l_t::epson_lx810l_t(const machine_config &mconfig, const char *tag, d
 epson_ap2000_t::epson_ap2000_t(const machine_config &mconfig, const char *tag, device_t *owner, UINT32 clock)
 	: epson_lx800_t(mconfig, EPSON_AP2000, "Epson ActionPrinter 2000", tag, owner, clock, "ap2000", __FILE__),
 	m_eeprom(*this, "eeprom"),
+	m_speaker(*this, "speaker"),
 	m_93c06_clk(0),
 	m_93c06_cs(0),
 	m_pf_pos_abs(200),
@@ -519,8 +523,7 @@ void epson_lx800_t::device_reset()
 
 void epson_ap2000_t::device_reset()
 {
-	m_beep->set_state(0);
-	m_beep->set_frequency(4000); /* ? */
+	m_speaker->level_w(0);
 }
 
 
@@ -729,8 +732,6 @@ WRITE8_MEMBER( epson_ap2000_t::portc_w )
 	m_eeprom->cs_write (m_93c06_cs  ? ASSERT_LINE : CLEAR_LINE);
 
 	output_set_value("online_led", !BIT(data, 2));
-
-	m_beep->set_state(!BIT(data, 7));
 }
 
 
@@ -824,6 +825,22 @@ WRITE_LINE_MEMBER( epson_ap2000_t::e05a30_ready )
 {
 	m_maincpu->set_input_line(INPUT_LINE_NMI, PULSE_LINE);
 }
+
+
+/***************************************************************************
+    Extended Timer Output
+***************************************************************************/
+
+WRITE_LINE_MEMBER( epson_ap2000_t::co0_w )
+{
+	/* FIRE */
+}
+
+WRITE_LINE_MEMBER( epson_ap2000_t::co1_w )
+{
+	m_speaker->level_w(state);
+}
+
 
 /***************************************************************************
     ADC

@@ -22,6 +22,7 @@
 #include "machine/eepromser.h"
 #include "machine/steppers.h"
 #include "sound/beep.h"
+#include "sound/speaker.h"
 
 
 
@@ -104,6 +105,10 @@ public:
 	DECLARE_READ8_MEMBER(portc_r);
 	DECLARE_WRITE8_MEMBER(portc_w);
 
+	/* Extended Timer Output */
+	DECLARE_WRITE_LINE_MEMBER(co0_w);
+	DECLARE_WRITE_LINE_MEMBER(co1_w);
+
 	/* ADC */
 	DECLARE_READ8_MEMBER(an0_r);
 	DECLARE_READ8_MEMBER(an1_r);
@@ -130,6 +135,8 @@ protected:
 	// device-level overrides
 	virtual void device_start();
 	virtual void device_reset();
+
+	required_device<speaker_sound_device> m_speaker;
 
 private:
 	int m_93c06_clk;
