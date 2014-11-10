@@ -91,9 +91,8 @@ private:
 	int m_93c06_cs;
 	UINT16 m_printhead;
 	int m_pf_pos_abs;
-	int m_pf_pos_prev;
 	int m_cr_pos_abs;
-	int m_cr_pos_prev;
+	int m_last_fire; /* HACK to get fire positions for motor in movement */
 	UINT8 m_fakemem;
 };
 

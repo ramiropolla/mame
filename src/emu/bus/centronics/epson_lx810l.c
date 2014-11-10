@@ -277,9 +277,8 @@ epson_lx810l_t::epson_lx810l_t(const machine_config &mconfig, const char *tag, d
 	m_93c06_cs(0),
 	m_printhead(0),
 	m_pf_pos_abs(200),
-	m_pf_pos_prev(0),
 	m_cr_pos_abs(200),
-	m_cr_pos_prev(0)
+	m_last_fire(0)
 {
 }
 
@@ -293,9 +292,8 @@ epson_lx810l_t::epson_lx810l_t(const machine_config &mconfig, device_type type, 
 	m_93c06_cs(0),
 	m_printhead(0),
 	m_pf_pos_abs(200),
-	m_pf_pos_prev(0),
 	m_cr_pos_abs(200),
-	m_cr_pos_prev(0)
+	m_last_fire(0)
 {
 }
 
@@ -481,32 +479,18 @@ WRITE16_MEMBER( epson_lx810l_t::printhead )
 
 WRITE8_MEMBER( epson_lx810l_t::pf_stepper )
 {
-	int prev = m_pf_pos_prev;
-
 	stepper_update(0, data);
-	int pos = stepper_get_position(0);
+	m_pf_pos_abs = 200 - stepper_get_absolute_position(0);
 
-	LX810LLOG("%s: %s(%02x); prev %d cur %d abs %d\n", machine().describe_context(), __func__, data, prev, pos, m_pf_pos_abs);
-
-	if      (prev == 95 && !pos) m_pf_pos_abs--;
-	else if (!prev && pos == 95) m_pf_pos_abs++;
-	else                         m_pf_pos_abs += prev - pos;
-	m_pf_pos_prev = pos;
+	LX810LLOG("%s: %s(%02x); abs %d\n", machine().describe_context(), __func__, data, m_pf_pos_abs);
 }
 
 WRITE8_MEMBER( epson_lx810l_t::cr_stepper )
 {
-	int prev = m_cr_pos_prev;
-
 	stepper_update(1, data);
-	int pos = stepper_get_position(1);
+	m_cr_pos_abs = 200 - stepper_get_absolute_position(1);
 
-	LX810LLOG("%s: %s(%02x); prev %d cur %d abs %d\n", machine().describe_context(), __func__, data, prev, pos, m_cr_pos_abs);
-
-	if      (prev == 95 && !pos) m_cr_pos_abs--;
-	else if (!prev && pos == 95) m_cr_pos_abs++;
-	else                         m_cr_pos_abs += prev - pos;
-	m_cr_pos_prev = pos;
+	LX810LLOG("%s: %s(%02x); abs %d\n", machine().describe_context(), __func__, data, m_cr_pos_abs);
 }
 
 WRITE_LINE_MEMBER( epson_lx810l_t::e05a30_ready )
@@ -522,7 +506,29 @@ WRITE_LINE_MEMBER( epson_lx810l_t::e05a30_ready )
 WRITE_LINE_MEMBER( epson_lx810l_t::co0_w )
 {
 	/* TODO Draw the dots on the paper using this information. */
-	LX810LLOG("FIRE%d %d %d %04x\n", state, m_pf_pos_abs, m_cr_pos_abs, m_printhead);
+
+	/* Printhead is being fired on !state. */
+	if (!state) {
+		int pos = m_cr_pos_abs;
+
+		/* HACK to get fire positions for motor in movement. The firmware
+		 * issues two half-steps one immediately after the other. A timer
+		 * fires the printhead twice. Supposedly, the first time the
+		 * printhead is fired, it is midway between one step and the other.
+		 * Ideally, the stepper motor interface should model the physics
+		 * of the motors. For the moment, we adjust pos to get the
+		 * intermediate position.
+		 */
+
+		if      (m_cr_pos_abs == m_last_fire + 2)
+			pos--;
+		else if (m_cr_pos_abs == m_last_fire - 2)
+			pos++;
+
+		printf("FIRE0 %d %d %04x\n", m_pf_pos_abs, pos, m_printhead);
+
+		m_last_fire = pos;
+	}
 }
 
 WRITE_LINE_MEMBER( epson_lx810l_t::co1_w )
