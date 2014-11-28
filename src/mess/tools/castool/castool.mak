@@ -37,3 +37,8 @@ CASTOOL_OBJS = \
 $(CASTOOL): $(CASTOOL_OBJS) $(FORMATS_LIB) $(LIBUTIL) $(EXPAT) $(ZLIB) $(LIBOCORE) $(FLAC_LIB) $(7Z_LIB)
 	@echo Linking $@...
 	$(LD) $(LDFLAGS) $^ $(LIBS) -o $@
+
+
+ifdef GCCDEPS
+-include $(wildcard $(CASTOOL_OBJS:.o=.d))
+endif

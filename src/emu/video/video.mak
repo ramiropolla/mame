@@ -589,3 +589,8 @@ endif
 ifneq ($(filter CRTC_EGA,$(VIDEOS)),)
 VIDEOOBJS+= $(VIDEOOBJ)/crtc_ega.o
 endif
+
+
+ifdef GCCDEPS
+-include $(wildcard $(VIDEOOBJS:.o=.d))
+endif

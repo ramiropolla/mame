@@ -1512,3 +1512,8 @@ BUSOBJS += $(BUSOBJ)/psx/analogue.o
 BUSOBJS += $(BUSOBJ)/psx/multitap.o
 BUSOBJS += $(BUSOBJ)/psx/memcard.o
 endif
+
+
+ifdef GCCDEPS
+-include $(wildcard $(BUSOBJS:.o=.d))
+endif

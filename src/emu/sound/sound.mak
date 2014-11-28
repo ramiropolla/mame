@@ -920,3 +920,7 @@ ifneq ($(filter VRC6,$(SOUNDS)),)
 SOUNDOBJS += $(SOUNDOBJ)/vrc6.o
 endif
 
+
+ifdef GCCDEPS
+-include $(wildcard $(SOUNDOBJS:.o=.d))
+endif

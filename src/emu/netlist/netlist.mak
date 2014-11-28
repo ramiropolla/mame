@@ -67,3 +67,7 @@ NETLISTOBJS+= \
 	$(NETLISTOBJ)/devices/nld_log.o \
 	$(NETLISTOBJ)/devices/nld_system.o \
 
+
+ifdef GCCDEPS
+-include $(wildcard $(NETLISTOBJS:.o=.d))
+endif

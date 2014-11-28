@@ -474,3 +474,9 @@ $(RESFILE): $(WINSRC)/mame.rc $(WINOBJ)/mamevers.rc
 $(WINOBJ)/mamevers.rc: $(BUILDOUT)/verinfo$(BUILD_EXE) $(SRC)/version.c
 	@echo Emitting $@...
 	@"$(BUILDOUT)/verinfo$(BUILD_EXE)" -b mame $(SRC)/version.c > $@
+
+
+ifdef GCCDEPS
+-include $(wildcard $(OSDCOREOBJS:.o=.d))
+-include $(wildcard $(OSDOBJS:.o=.d))
+endif

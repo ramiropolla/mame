@@ -1952,3 +1952,8 @@ endif
 ifneq ($(filter FDC37C665GT,$(MACHINES)),)
 MACHINEOBJS += $(MACHINEOBJ)/fdc37c665gt.o
 endif
+
+
+ifdef GCCDEPS
+-include $(wildcard $(MACHINEOBJS:.o=.d))
+endif

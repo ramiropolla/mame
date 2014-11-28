@@ -561,3 +561,18 @@ endif
 $(LIBOBJ)/sqlite3/sqlite3.o: $(LIBSRC)/sqlite3/sqlite3.c | $(OSPREBUILD)
 	@echo Compiling $<...
 	$(CC) $(CDEFS) $(CONLYFLAGS) -Wno-bad-function-cast -I$(LIBSRC)/sqlite3 -c $< -o $@
+
+
+ifdef GCCDEPS
+-include $(wildcard $(UTILOBJS:.o=.d))
+-include $(wildcard $(EXPATOBJS:.o=.d))
+-include $(wildcard $(FORMATSOBJS:.o=.d))
+-include $(wildcard $(ZLIBOBJS:.o=.d))
+-include $(wildcard $(SOFTFLOATOBJS:.o=.d))
+-include $(wildcard $(LIBFLACOBJS:.o=.d))
+-include $(wildcard $(LIB7ZOBJS:.o=.d))
+-include $(wildcard $(LIBPMOBJS:.o=.d))
+-include $(wildcard $(LUAOBJS:.o=.d))
+-include $(wildcard $(WEBOBJS:.o=.d))
+-include $(wildcard $(SQLITEOBJS:.o=.d))
+endif

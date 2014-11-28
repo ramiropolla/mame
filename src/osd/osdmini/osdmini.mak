@@ -80,3 +80,9 @@ endif
 $(LIBOCORE): $(OSDCOREOBJS)
 
 $(LIBOSD): $(OSDOBJS)
+
+
+ifdef GCCDEPS
+-include $(wildcard $(OSDCOREOBJS:.o=.d))
+-include $(wildcard $(OSDOBJS:.o=.d))
+endif

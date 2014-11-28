@@ -152,3 +152,13 @@ $(VERINFO_TARGET):
 	@echo $@ should be built natively. Nothing to do.
 
 endif # CROSS_BUILD
+
+
+ifdef GCCDEPS
+-include $(wildcard $(FILE2STROBJS:.o=.d))
+-include $(wildcard $(MAKEDEPOBJS:.o=.d))
+-include $(wildcard $(MAKEMAKOBJS:.o=.d))
+-include $(wildcard $(MAKELISTOBJS:.o=.d))
+-include $(wildcard $(PNG2BDCOBJS:.o=.d))
+-include $(wildcard $(VERINFOOBJS:.o=.d))
+endif

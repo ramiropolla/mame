@@ -273,3 +273,9 @@ $(EMUOBJ)/rendlay.o:    $(EMULAYOUT)/dualhovu.lh \
 						$(EMULAYOUT)/noscreens.lh \
 
 $(EMUOBJ)/video.o:      $(EMULAYOUT)/snap.lh
+
+
+ifdef GCCDEPS
+-include $(wildcard $(CPUOBJS:.o=.d))
+-include $(wildcard $(LIBEMUOBJS:.o=.d))
+endif

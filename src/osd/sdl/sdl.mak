@@ -865,3 +865,8 @@ zip:
 
 endif
 
+
+ifdef GCCDEPS
+-include $(wildcard $(OSDCOREOBJS:.o=.d))
+-include $(wildcard $(OSDOBJS:.o=.d))
+endif

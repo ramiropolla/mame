@@ -2532,3 +2532,8 @@ $(CPUOBJ)/alto2/a2roms.o:   $(CPUSRC)/alto2/a2roms.c \
 $(CPUOBJ)/alto2/alto2dsm.o: $(CPUSRC)/alto2/alto2dsm.c \
 							$(CPUSRC)/alto2/alto2cpu.h
 
+
+ifdef GCCDEPS
+-include $(wildcard $(CPUOBJS:.o=.d))
+-include $(wildcard $(DASMOBJS:.o=.d))
+endif

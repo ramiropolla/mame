@@ -37,3 +37,8 @@ FLOPTOOL_OBJS = \
 $(FLOPTOOL): $(FLOPTOOL_OBJS) $(FORMATS_LIB) $(LIBEMU) $(LIBUTIL) $(EXPAT) $(ZLIB) $(LIBOCORE) $(FLAC_LIB) $(7Z_LIB)
 	@echo Linking $@...
 	$(LD) $(LDFLAGS) $^ $(LIBS) -o $@
+
+
+ifdef GCCDEPS
+-include $(wildcard $(FLOPTOOL_OBJS:.o=.d))
+endif

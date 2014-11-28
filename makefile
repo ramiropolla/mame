@@ -275,6 +275,10 @@ BUILD_MIDILIB = 1
 # (default is OPTIMIZE = 3 normally, or OPTIMIZE = 0 with symbols)
 # OPTIMIZE = 3
 
+# uncomment to enable GCC style dependencies
+# build time will be slightly faster if you use make -r
+# GCCDEPS = 1
+
 
 ###########################################################################
 ##################   END USER-CONFIGURABLE OPTIONS   ######################
@@ -557,6 +561,10 @@ ifdef OPENMP
 CCOMFLAGS += -fopenmp
 else
 CCOMFLAGS += -Wno-unknown-pragmas
+endif
+
+ifdef GCCDEPS
+CCOMFLAGS += $(if $(findstring .o,$@),-MMD -MF $(@:.o=.d) -MT $@)
 endif
 
 # add a basic set of warnings
@@ -998,3 +1006,9 @@ endif
 
 -include depend_emu.mak
 -include depend_$(TARGET).mak
+
+ifdef GCCDEPS
+-include $(wildcard $(VERSIONOBJ:.o=.d))
+-include $(wildcard $(EMUINFOOBJ:.o=.d))
+-include $(wildcard $(DRIVLISTOBJ:.o=.d))
+endif

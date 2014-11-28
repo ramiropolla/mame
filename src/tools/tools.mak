@@ -221,3 +221,18 @@ nltool$(EXE): $(NLTOOLOBJS) $(LIBUTIL) $(LIBOCORE) $(ZLIB) $(EXPAT)
 	@echo Linking $@...
 	$(LD) $(LDFLAGS) $^ $(LIBS) -o $@
 
+
+ifdef GCCDEPS
+-include $(wildcard $(OSDCOREOBJS:.o=.d))
+-include $(wildcard $(CHDMANOBJS:.o=.d))
+-include $(wildcard $(JEDUTILOBJS:.o=.d))
+-include $(wildcard $(UNIDASMOBJS:.o=.d))
+-include $(wildcard $(LDRESAMPLEOBJS:.o=.d))
+-include $(wildcard $(LDVERIFYOBJS:.o=.d))
+-include $(wildcard $(REGREPOBJS:.o=.d))
+-include $(wildcard $(SRCCLEANOBJS:.o=.d))
+-include $(wildcard $(SRC2HTMLOBJS:.o=.d))
+-include $(wildcard $(SPLITOBJS:.o=.d))
+-include $(wildcard $(PNGCMPOBJS:.o=.d))
+-include $(wildcard $(NLTOOLOBJS:.o=.d))
+endif
