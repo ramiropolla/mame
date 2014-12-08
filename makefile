@@ -56,7 +56,8 @@ endif
 #-------------------------------------------------
 # specify OS target, which further differentiates
 # the underlying OS; supported values are:
-# win32, unix, macosx, os2
+# win32, linux, macosx, os2, solaris, freebsd,
+# netbsd, openbsd, haiku
 #-------------------------------------------------
 
 ifndef TARGETOS
@@ -99,7 +100,7 @@ TARGETOS = haiku
 endif
 
 ifndef TARGETOS
-$(error Unable to detect TARGETOS from uname -a: $(UNAME))
+$(error Unable to detect TARGETOS from uname -mps: $(UNAME))
 endif
 
 # Autodetect PTR64
@@ -131,7 +132,7 @@ endif # OS/2
 endif # CROSS_BUILD
 endif # Windows_NT
 
-endif # TARGET_OS
+endif # TARGETOS
 
 
 ifeq ($(TARGETOS),win32)
