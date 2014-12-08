@@ -42,7 +42,6 @@ endif
 ifndef OSD
 ifeq ($(OS),Windows_NT)
 OSD = windows
-TARGETOS = win32
 else
 OSD = sdl
 endif
