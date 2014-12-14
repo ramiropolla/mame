@@ -148,6 +148,17 @@ endif
 endif
 
 
+ifdef CROSS_PREFIX
+
+# Autodetect PTR64
+ifndef PTR64
+ifneq (,$(findstring x86_64,$(CROSS_PREFIX)))
+PTR64=1
+endif
+endif
+
+endif
+
 
 #-------------------------------------------------
 # configure name of final executable
@@ -350,11 +361,16 @@ ifneq ($(OS2_SHELL),)
 BUILD_EXE = .exe
 endif
 
+# toolchain prefix for cross-compilation
+ifndef CROSS_PREFIX
+CROSS_PREFIX =
+endif
+
 # compiler, linker and utilities
 ifneq ($(TARGETOS),emscripten)
-AR = @ar
-CC = @gcc
-LD = @g++
+AR = @$(CROSS_PREFIX)ar
+CC = @$(CROSS_PREFIX)gcc
+LD = @$(CROSS_PREFIX)g++
 endif
 MD = -mkdir$(BUILD_EXE)
 RM = @rm -f
