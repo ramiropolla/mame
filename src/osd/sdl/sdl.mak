@@ -860,7 +860,7 @@ TESTKEYSOBJS = \
 
 testkeys$(EXE): $(TESTKEYSOBJS) $(LIBUTIL) $(LIBOCORE) $(SDLUTILMAIN)
 	@echo Linking $@...
-	$(LD) $(LDFLAGS) $^ $(BASELIBS) -o $@
+	$(LD) $(LDFLAGS) $^ $(LIBS) -o $@
 
 #-------------------------------------------------
 # clean up
