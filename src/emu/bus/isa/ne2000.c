@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "dinetwork.h"
 #include "ne2000.h"
 
 

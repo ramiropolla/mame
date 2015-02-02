@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "dinetwork.h"
 #include "osdnet.h"
 
 static class simple_list<osd_netdev::entry_t> netdev_list;

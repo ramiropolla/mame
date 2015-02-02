@@ -3,6 +3,7 @@
  */
 
 #include "emu.h"
+#include "dinetwork.h"
 #include "machine/dp8390.h"
 #include "x68k_neptunex.h"
 

@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "dinetwork.h"
 #include "osdnet.h"
 
 device_network_interface::device_network_interface(const machine_config &mconfig, device_t &device, float bandwidth)

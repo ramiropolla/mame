@@ -13,6 +13,7 @@
 #define __ISA_CARDS_H__
 
 #include "emu.h"
+#include "dinetwork.h"
 
 // video
 #include "mda.h"

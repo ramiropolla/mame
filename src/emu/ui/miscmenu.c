@@ -10,6 +10,7 @@
 *********************************************************************/
 
 #include "emu.h"
+#include "dinetwork.h"
 #include "osdnet.h"
 
 #include "uiinput.h"

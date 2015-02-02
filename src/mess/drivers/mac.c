@@ -44,6 +44,7 @@
 
 
 #include "emu.h"
+#include "dinetwork.h"
 #include "cpu/m68000/m68000.h"
 #include "cpu/powerpc/ppc.h"
 #include "cpu/m6805/m6805.h"

@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "dinetwork.h"
 #include "dp8390.h"
 
 #define DP8390_BYTE_ORDER(w) ((m_regs.dcr & 3) == 3 ? ((data << 8) | (data >> 8)) : data)

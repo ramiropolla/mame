@@ -10,6 +10,7 @@
 *********************************************************************/
 
 #include "emu.h"
+#include "dinetwork.h"
 #include "audit.h"
 #include "crsshair.h"
 #include "osdnet.h"

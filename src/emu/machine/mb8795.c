@@ -1,5 +1,6 @@
 
 #include "emu.h"
+#include "dinetwork.h"
 #include "mb8795.h"
 
 const device_type MB8795 = &device_creator<mb8795_device>;

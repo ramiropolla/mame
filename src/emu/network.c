@@ -11,6 +11,7 @@
 #include <ctype.h>
 
 #include "emu.h"
+#include "dinetwork.h"
 #include "emuopts.h"
 #include "network.h"
 #include "config.h"

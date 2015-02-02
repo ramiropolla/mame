@@ -11,6 +11,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "dinetwork.h"
 #include "nubus_asntmc3b.h"
 
 #define MAC8390_ROM_REGION  "asntm3b_rom"

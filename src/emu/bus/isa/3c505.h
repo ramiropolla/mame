@@ -15,6 +15,7 @@
 #define THREECOM3C505_H_
 
 #include "emu.h"
+#include "dinetwork.h"
 #include "bus/isa/isa.h"
 
 #define CMD_BUFFER_SIZE 100

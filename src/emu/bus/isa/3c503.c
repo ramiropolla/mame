@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "dinetwork.h"
 #include "3c503.h"
 
 #define SADDR 0xcc000

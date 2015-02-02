@@ -8,6 +8,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "dinetwork.h"
 #include "pds30_mc30.h"
 
 #define XCEEDMC30_SCREEN_NAME "x30hr_screen"

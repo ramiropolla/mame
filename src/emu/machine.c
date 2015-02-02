@@ -92,6 +92,7 @@ void js_set_main_loop(running_machine * machine);
 #endif
 
 
+void network_init(running_machine &machine);
 
 //**************************************************************************
 //  GLOBAL VARIABLES

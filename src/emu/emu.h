@@ -77,7 +77,7 @@ typedef device_t * (*machine_config_constructor)(machine_config &config, device_
 #include "didisasm.h"
 #include "schedule.h"
 #include "timer.h"
-#include "dinetwork.h"
+class device_network_interface;
 
 // machine and driver configuration
 #include "mconfig.h"
@@ -90,9 +90,6 @@ typedef device_t * (*machine_config_constructor)(machine_config &config, device_
 // image-related
 #include "softlist.h"
 #include "image.h"
-
-// networking
-#include "network.h"
 
 // lua engine
 #include "luaengine.h"

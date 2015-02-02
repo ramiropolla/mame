@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "dinetwork.h"
 #include "ne1000.h"
 
 static MACHINE_CONFIG_FRAGMENT(ne1000_config)
