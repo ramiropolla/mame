@@ -11,6 +11,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/nes.h"
 #include "cpu/m6502/n2a03.h"
 

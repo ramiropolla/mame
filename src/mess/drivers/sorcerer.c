@@ -157,6 +157,8 @@ NOTES (2011-08-08)
 
 ********************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/sorcerer.h"
 
 static ADDRESS_MAP_START( sorcerer_mem, AS_PROGRAM, 8, sorcerer_state)

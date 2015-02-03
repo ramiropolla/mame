@@ -168,6 +168,7 @@ Cisco Heat.
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/2151intf.h"
 #include "sound/okim6295.h"

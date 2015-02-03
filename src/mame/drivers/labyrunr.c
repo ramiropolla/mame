@@ -9,6 +9,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6809/hd6309.h"
 #include "sound/2203intf.h"
 

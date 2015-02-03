@@ -11,6 +11,7 @@
 ******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "cpu/m6805/m6805.h"
 #include "includes/atari.h"

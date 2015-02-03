@@ -37,6 +37,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "es5503.h"
 
 // device type definition

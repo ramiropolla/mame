@@ -17,6 +17,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 
 #include "sound/wave.h"         /* for K7 sound*/
 #include "sound/discrete.h"     /* for 1 Bit sound*/

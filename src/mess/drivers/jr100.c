@@ -12,6 +12,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6800/m6800.h"
 #include "machine/6522via.h"
 #include "imagedev/cassette.h"

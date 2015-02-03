@@ -14,6 +14,7 @@
  */
 
 #include "emu.h"
+#include "sound.h"
 #include "c352.h"
 
 #define VERBOSE (0)

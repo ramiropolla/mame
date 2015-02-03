@@ -5,6 +5,7 @@ Atari Starship 1 video emulation
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/starshp1.h"
 
 

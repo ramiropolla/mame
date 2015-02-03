@@ -448,6 +448,7 @@
 #define CRTC_CLOCK      (MASTER_CLOCK / 16) /* 750 kHz, measured */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "video/mc6845.h"
 #include "sound/okim6295.h"

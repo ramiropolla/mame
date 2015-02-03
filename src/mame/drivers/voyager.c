@@ -13,6 +13,7 @@ TODO: VIA KT133a chipset support, GeForce 2MX video support, lots of things ;-)
 *************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i386/i386.h"
 #include "machine/lpci.h"
 #include "machine/pcshare.h"

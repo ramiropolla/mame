@@ -8,6 +8,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/atari_vg.h"
 #include "video/avgdvg.h"
 #include "includes/asteroid.h"

@@ -8,6 +8,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/samples.h"
 #include "includes/galaga.h"
 

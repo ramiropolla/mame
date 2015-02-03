@@ -22,6 +22,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/tandy2k.h"
 #include "machine/pckeybrd.h"
 

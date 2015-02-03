@@ -19,6 +19,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "ldpr8210.h"
 
 

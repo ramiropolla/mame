@@ -5,6 +5,7 @@
  */
 
 #include "emu.h"
+#include "sound.h"
 #include "mface2.h"
 #include "includes/amstrad.h"
 

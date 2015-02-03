@@ -50,6 +50,7 @@ enter  show next address
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6809/m6809.h"
 #include "machine/6522via.h"
 #include "machine/keyboard.h"

@@ -19,6 +19,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "video/hd61830.h"
 #include "machine/mm58274c.h"

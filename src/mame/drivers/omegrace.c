@@ -214,6 +214,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "video/vector.h"
 #include "video/avgdvg.h"

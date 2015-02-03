@@ -12,6 +12,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/7474.h"
 #include "sound/flt_rc.h"

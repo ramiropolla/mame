@@ -30,6 +30,7 @@ The driver has been updated accordingly.
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "cpu/m6809/m6809.h"
 #include "cpu/m6805/m6805.h"

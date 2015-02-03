@@ -12,6 +12,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms32031/tms32031.h"
 #include "cage.h"
 

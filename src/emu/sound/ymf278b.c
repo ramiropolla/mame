@@ -67,6 +67,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "ymf278b.h"
 
 #define VERBOSE 0

@@ -15,6 +15,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/2203intf.h"
 #include "video/mc6845.h"

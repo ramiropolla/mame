@@ -3,6 +3,7 @@
     Sound handler
 ****************************************************************************/
 #include "emu.h"
+#include "sound.h"
 #include "machine/rescap.h"
 #include "namco52.h"
 #include "namco54.h"

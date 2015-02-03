@@ -12,6 +12,8 @@
  *
  ******************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/channelf.h"
 
 #ifndef VERBOSE

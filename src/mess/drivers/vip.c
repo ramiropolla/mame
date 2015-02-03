@@ -219,6 +219,8 @@ Notes:
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/vip.h"
 
 

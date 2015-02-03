@@ -41,6 +41,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 
 #include "machine/sec.h"
 #include "mpu5.lh"

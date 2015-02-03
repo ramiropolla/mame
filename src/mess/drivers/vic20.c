@@ -9,6 +9,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/vic20.h"
 
 

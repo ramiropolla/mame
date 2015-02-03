@@ -33,6 +33,7 @@ Daughterboard: Custom made, plugged in the 2 roms and Z80 mainboard sockets.
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/dac.h"
 #include "includes/trucocl.h"

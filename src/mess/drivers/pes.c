@@ -61,6 +61,7 @@ Address map:
 
 /* Core includes */
 #include "emu.h"
+#include "sound.h"
 #include "includes/pes.h"
 #include "cpu/mcs51/mcs51.h"
 #include "sound/tms5220.h"

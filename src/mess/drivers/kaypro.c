@@ -27,6 +27,8 @@
 
 **************************************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/kaypro.h"
 #include "formats/kaypro_dsk.h"
 

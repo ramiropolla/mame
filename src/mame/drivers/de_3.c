@@ -11,6 +11,8 @@
 #include "audio/decobsmt.h"
 #include "video/decodmd1.h"
 #include "video/decodmd2.h"
+#include "emu.h"
+#include "sound.h"
 #include "machine/genpin.h"
 #include "machine/nvram.h"
 

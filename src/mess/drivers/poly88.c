@@ -9,6 +9,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i8085/i8085.h"
 #include "imagedev/cassette.h"
 #include "sound/wave.h"

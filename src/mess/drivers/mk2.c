@@ -48,6 +48,7 @@ Usage:
 ******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/mos6530.h"
 #include "cpu/m6502/m6504.h"
 #include "sound/speaker.h"

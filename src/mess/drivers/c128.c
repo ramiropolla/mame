@@ -8,6 +8,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/c128.h"
 #include "bus/cbmiec/c1571.h"
 #include "bus/cbmiec/c1581.h"

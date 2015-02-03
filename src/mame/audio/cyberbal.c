@@ -7,6 +7,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/2151intf.h"
 #include "machine/atarigen.h"
 #include "includes/cyberbal.h"

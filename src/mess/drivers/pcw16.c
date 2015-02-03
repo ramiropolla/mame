@@ -87,6 +87,8 @@ TODO:
    epp/ecp modes in parallel port not supported yet
    so ui disabled */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/pcw16.h"
 #include "bus/rs232/rs232.h"
 #include "bus/rs232/ser_mouse.h"

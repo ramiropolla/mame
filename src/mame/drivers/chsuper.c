@@ -16,6 +16,7 @@ TODO:
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z180/z180.h"
 #include "sound/dac.h"
 #include "machine/nvram.h"

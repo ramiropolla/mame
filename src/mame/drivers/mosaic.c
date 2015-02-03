@@ -8,6 +8,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z180/z180.h"
 #include "sound/2203intf.h"
 #include "includes/mosaic.h"

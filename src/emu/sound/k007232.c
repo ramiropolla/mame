@@ -24,6 +24,7 @@ added external port callback, and functions to set the volume of the channels
 
 
 #include "emu.h"
+#include "sound.h"
 #include "k007232.h"
 
 #define   BASE_SHIFT    (12)

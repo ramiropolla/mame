@@ -117,6 +117,7 @@ The current set of Super Model is an example of type C
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "includes/kaneko16.h"
 #include "sound/okim6295.h"

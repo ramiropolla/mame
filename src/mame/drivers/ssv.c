@@ -160,6 +160,7 @@ Notes:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/v810/v810.h"
 #include "cpu/v60/v60.h"
 #include "machine/nvram.h"

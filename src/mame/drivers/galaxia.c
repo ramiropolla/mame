@@ -60,6 +60,7 @@ TODO:
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/s2636.h"
 #include "cpu/s2650/s2650.h"
 #include "includes/galaxia.h"

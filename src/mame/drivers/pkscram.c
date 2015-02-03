@@ -12,6 +12,7 @@ driver by David Haywood and few bits by Pierpaolo Prazzoli
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/2203intf.h"
 #include "machine/nvram.h"

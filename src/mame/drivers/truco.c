@@ -205,6 +205,7 @@
 #define CRTC_CLOCK      (MASTER_CLOCK/8)    /* guess */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6809/m6809.h"
 #include "video/mc6845.h"
 #include "machine/6821pia.h"

@@ -70,6 +70,8 @@ Notes:
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "currah_speech.h"
 
 

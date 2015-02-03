@@ -145,6 +145,7 @@
 **************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/turbo.h"
 #include "machine/i8279.h"
 #include "machine/segacrpt.h"

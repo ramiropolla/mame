@@ -8,6 +8,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/amiga.h"
 #include "bus/amiga/zorro/zorro.h"
 #include "cpu/m68000/m68000.h"

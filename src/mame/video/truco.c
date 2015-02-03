@@ -7,6 +7,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/truco.h"
 
 PALETTE_INIT_MEMBER(truco_state, truco)

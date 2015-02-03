@@ -36,6 +36,7 @@ Notes:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/2203intf.h"
 #include "sound/2151intf.h"

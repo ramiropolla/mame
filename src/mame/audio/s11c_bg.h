@@ -7,7 +7,6 @@
 #ifndef S11C_BG_H_
 #define S11C_BG_H_
 
-#include "emu.h"
 #include "cpu/m6809/m6809.h"
 #include "sound/2151intf.h"
 #include "sound/dac.h"

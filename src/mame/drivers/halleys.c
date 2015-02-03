@@ -160,6 +160,7 @@ Video sync   6 F   Video sync                 Post   6 F   Post
 // Compiler Directives
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "includes/taitoipt.h"
 #include "cpu/m6809/m6809.h"

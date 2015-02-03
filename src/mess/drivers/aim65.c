@@ -24,6 +24,8 @@ Bugs
 
 ******************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/aim65.h"
 #include "aim65.lh"
 

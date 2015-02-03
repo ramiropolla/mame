@@ -45,6 +45,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "netlist.h"
 #include "netlist/nl_base.h"
 #include "netlist/nl_setup.h"

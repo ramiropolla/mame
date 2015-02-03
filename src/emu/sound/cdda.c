@@ -4,6 +4,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cdda.h"
 
 #define MAX_SECTORS ( 4 )

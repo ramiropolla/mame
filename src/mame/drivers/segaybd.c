@@ -57,6 +57,7 @@ MB89372 - Uses 3 serial data transfer protocols: ASYNC, COP & BOP. Has a built
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "includes/segaybd.h"
 #include "cpu/m68000/m68000.h"

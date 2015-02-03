@@ -37,6 +37,7 @@
  ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "coco_vhd.h"
 #include "includes/coco.h"
 #include "machine/ram.h"

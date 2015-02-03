@@ -174,6 +174,7 @@ TODO:
         approximation of the SCN2674 scanline logic, but this is perhaps better served as a proper device.
  ***********************************************************************************************************/
 #include "emu.h"
+#include "sound.h"
 #include "machine/6821pia.h"
 #include "machine/6840ptm.h"
 #include "machine/nvram.h"

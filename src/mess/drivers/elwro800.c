@@ -13,6 +13,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/spectrum.h"
 
 /* Components */

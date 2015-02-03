@@ -19,6 +19,8 @@ Note: To start a game, certain switches need to be activated.  You must first pr
 *****************************************************************************************/
 
 
+#include "emu.h"
+#include "sound.h"
 #include "machine/genpin.h"
 #include "cpu/m6800/m6800.h"
 #include "cpu/m6809/m6809.h"

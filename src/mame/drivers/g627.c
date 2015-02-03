@@ -39,6 +39,8 @@ ToDo:
 *******************************************************************************/
 
 
+#include "emu.h"
+#include "sound.h"
 #include "machine/genpin.h"
 #include "cpu/z80/z80.h"
 #include "machine/i8155.h"

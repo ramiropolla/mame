@@ -36,6 +36,7 @@ This gives a total of 19968 NOPs per frame.
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/i8255.h"
 #include "machine/mc146818.h"

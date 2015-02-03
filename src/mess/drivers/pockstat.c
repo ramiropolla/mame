@@ -39,6 +39,7 @@ If you do nothing for about 20 secs, it turns itself off (screen goes white).
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/arm7/arm7.h"
 #include "cpu/arm7/arm7core.h"
 #include "sound/dac.h"

@@ -408,6 +408,7 @@
 #define CRTC_CLOCK      MASTER_CLOCK/16     /* it gives 59.410646 fps with current settings */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/nvram.h"
 #include "sound/ay8910.h"

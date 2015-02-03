@@ -5,6 +5,8 @@
  */
 
 
+#include "emu.h"
+#include "sound.h"
 #include "gus.h"
 #include "bus/midi/midi.h"
 #include "machine/clock.h"

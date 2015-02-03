@@ -111,6 +111,8 @@ Hardware:   PPIA 8255
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/atom.h"
 #include "formats/imageutl.h"
 

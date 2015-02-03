@@ -68,6 +68,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "machine/nvram.h"
 #include "machine/315_5296.h"

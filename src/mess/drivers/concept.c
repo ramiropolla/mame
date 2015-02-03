@@ -29,6 +29,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "includes/concept.h"
 #include "bus/a2bus/a2corvus.h"

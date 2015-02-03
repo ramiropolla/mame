@@ -8,6 +8,8 @@
 
 ****************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/vector06.h"
 
 

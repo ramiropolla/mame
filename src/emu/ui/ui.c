@@ -10,6 +10,7 @@
 *********************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "emuopts.h"
 #include "video/vector.h"
 #include "machine/laserdsc.h"

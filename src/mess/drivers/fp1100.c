@@ -51,6 +51,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/upd7810/upd7810.h"
 #include "video/mc6845.h"

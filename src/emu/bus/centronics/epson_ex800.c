@@ -130,6 +130,8 @@ TODO:  - The UPD7810 core is missing analog port emulation
 
 ******************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "epson_ex800.h"
 #include "ex800.lh"
 

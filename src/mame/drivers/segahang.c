@@ -16,6 +16,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/segahang.h"
 #include "machine/segaic16.h"
 #include "machine/fd1089.h"

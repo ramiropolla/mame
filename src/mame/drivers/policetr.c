@@ -87,6 +87,7 @@ PC5380-9651            5380-JY3306A           5380-N1045503A
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mips/r3000.h"
 #include "machine/eepromser.h"
 #include "includes/policetr.h"

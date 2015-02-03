@@ -24,6 +24,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "video/tms9928a.h"
 #include "sound/ay8910.h"

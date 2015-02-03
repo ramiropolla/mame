@@ -5,6 +5,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/archimds.h"
 
 UINT32 archimedes_state::screen_update(screen_device &screen, bitmap_rgb32 &bitmap, const rectangle &cliprect)

@@ -97,6 +97,7 @@ Game is V30 based, with rom banking (2Mb)
 *************************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/nec/nec.h"
 #include "cpu/i86/i186.h"
 #include "sound/okim6376.h"

@@ -5,6 +5,7 @@
 *************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/firetrk.h"
 #include "sound/discrete.h"
 

@@ -15,6 +15,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "video/hd44780.h"
 #include "video/sed1520.h"

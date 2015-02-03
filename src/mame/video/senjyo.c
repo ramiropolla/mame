@@ -7,6 +7,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/segacrpt.h"
 #include "includes/senjyo.h"
 

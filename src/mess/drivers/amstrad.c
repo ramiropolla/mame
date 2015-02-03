@@ -88,6 +88,7 @@ Some bugs left :
 
 /* Core includes */
 #include "emu.h"
+#include "sound.h"
 #include "includes/amstrad.h"
 
 /* Components */

@@ -26,6 +26,7 @@ Changelog:
 // * implement avr8 WDR (watchdog reset) opcode
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/avr8/avr8.h"
 #include "video/hd44780.h"
 #include "rendlay.h"

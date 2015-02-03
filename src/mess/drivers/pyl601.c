@@ -35,6 +35,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6800/m6800.h"
 #include "video/mc6845.h"
 #include "sound/speaker.h"

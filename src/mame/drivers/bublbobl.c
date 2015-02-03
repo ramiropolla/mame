@@ -267,6 +267,7 @@ TODO:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/m6800/m6800.h"
 #include "sound/2203intf.h"

@@ -27,6 +27,7 @@ Revisions:
 *********************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "iremga20.h"
 
 #define MAX_VOL 256

@@ -125,6 +125,7 @@
 #define AUX_CLOCK   XTAL_3_579545MHz
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6809/m6809.h"
 #include "machine/6840ptm.h"
 #include "machine/6850acia.h"

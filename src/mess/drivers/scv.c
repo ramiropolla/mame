@@ -5,6 +5,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/upd7810/upd7810.h"
 #include "audio/upd1771.h"
 #include "bus/scv/slot.h"

@@ -9,6 +9,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/amis2000/amis2000.h"
 #include "sound/speaker.h"
 

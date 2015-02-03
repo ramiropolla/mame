@@ -1038,6 +1038,7 @@ Notes:
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/psx/psx.h"
 #include "cpu/h8/h83002.h"
 #include "video/psx.h"

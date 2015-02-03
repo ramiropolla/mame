@@ -3,6 +3,7 @@
 ******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/upd7810/upd7810.h"
 #include "sound/speaker.h"
 #include "bus/generic/slot.h"

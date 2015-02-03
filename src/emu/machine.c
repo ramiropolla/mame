@@ -69,6 +69,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "emuopts.h"
 #include "osdepend.h"
 #include "config.h"

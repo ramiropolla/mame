@@ -9,6 +9,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "awacs.h"
 
 // device type definition

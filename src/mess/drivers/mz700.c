@@ -63,6 +63,7 @@
  *****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/mz700.h"
 #include "cpu/z80/z80.h"
 #include "machine/i8255.h"

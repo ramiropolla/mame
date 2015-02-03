@@ -102,6 +102,7 @@ ________|D7  |D6  |D5  |D4 |D3 |D2 |D1 |D0
  */
 
 #include "emu.h"
+#include "sound.h"
 #include "dec_lk201.h"
 #include "cpu/m6805/m6805.h"
 

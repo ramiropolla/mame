@@ -61,6 +61,7 @@ U0564 LH28F800SU OBJ4-1
 *******************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/sh2/sh2.h"
 #include "machine/seibuspi.h"
 #include "sound/okim6295.h"

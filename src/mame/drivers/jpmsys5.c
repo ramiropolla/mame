@@ -30,6 +30,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/jpmsys5.h"
 #include "machine/clock.h"
 #include "sound/saa1099.h"

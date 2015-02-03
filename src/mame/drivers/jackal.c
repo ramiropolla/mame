@@ -71,6 +71,7 @@ Address          Dir Data     Description
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6809/m6809.h"
 #include "sound/2151intf.h"
 #include "includes/jackal.h"

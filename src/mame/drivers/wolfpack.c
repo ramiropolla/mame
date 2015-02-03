@@ -5,6 +5,7 @@ Atari Wolf Pack (prototype) driver
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "includes/wolfpack.h"
 

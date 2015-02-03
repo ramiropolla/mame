@@ -44,6 +44,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i86/i186.h"
 #include "machine/eepromser.h"
 #include "machine/nvram.h"

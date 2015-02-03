@@ -118,6 +118,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "sn76496.h"
 
 #define MAX_OUTPUT 0x7fff

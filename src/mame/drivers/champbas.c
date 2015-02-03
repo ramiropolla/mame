@@ -82,6 +82,7 @@ TODO:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/alph8201/alph8201.h"
 #include "sound/ay8910.h"

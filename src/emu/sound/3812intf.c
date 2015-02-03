@@ -17,6 +17,7 @@
 *
 ******************************************************************************/
 #include "emu.h"
+#include "sound.h"
 #include "3812intf.h"
 #include "fm.h"
 #include "sound/fmopl.h"

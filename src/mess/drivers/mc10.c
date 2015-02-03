@@ -9,6 +9,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6800/m6800.h"
 #include "sound/dac.h"
 #include "video/mc6847.h"

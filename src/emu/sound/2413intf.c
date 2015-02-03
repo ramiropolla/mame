@@ -5,6 +5,7 @@
 ****************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "ym2413.h"
 #include "2413intf.h"
 

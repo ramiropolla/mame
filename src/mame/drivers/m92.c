@@ -199,6 +199,7 @@ psoldier dip locations still need verification.
 *****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/nec/nec.h"
 #include "cpu/nec/v25.h"
 #include "includes/m92.h"

@@ -5,6 +5,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "adlib.h"
 #include "sound/speaker.h"
 

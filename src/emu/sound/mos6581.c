@@ -7,6 +7,8 @@
 
 **********************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "mos6581.h"
 #include "sid.h"
 

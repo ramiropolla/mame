@@ -37,6 +37,7 @@ Dumped by Chackn
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z180/z180.h"
 #include "sound/okim6295.h"
 

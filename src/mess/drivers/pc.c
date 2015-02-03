@@ -26,6 +26,7 @@ video HW too.
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 
 #include "cpu/i86/i86.h"
 #include "bus/isa/isa.h"

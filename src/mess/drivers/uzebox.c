@@ -14,6 +14,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/avr8/avr8.h"
 #include "sound/dac.h"
 #include "bus/generic/slot.h"

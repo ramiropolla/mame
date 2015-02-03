@@ -40,6 +40,7 @@
 ***********************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "astrocde.h"
 
 

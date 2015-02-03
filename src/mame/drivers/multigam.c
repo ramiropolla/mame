@@ -105,6 +105,7 @@ Eproms are 27512,27010,274001
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/n2a03.h"
 #include "sound/dac.h"
 #include "sound/nes_apu.h"

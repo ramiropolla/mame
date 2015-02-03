@@ -7,6 +7,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpc_ssa1.h"
 #include "includes/amstrad.h"
 

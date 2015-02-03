@@ -20,6 +20,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/eepromser.h"
 #include "sound/gaelco.h"
 #include "rendlay.h"

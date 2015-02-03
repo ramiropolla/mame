@@ -12,6 +12,7 @@
  *********************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/e132xs/e132xs.h"
 #include "machine/at28c16.h"
 #include "sound/qs1000.h"

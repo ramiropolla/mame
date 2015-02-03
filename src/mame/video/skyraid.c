@@ -5,6 +5,7 @@ Atari Sky Raider video emulation
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/skyraid.h"
 
 

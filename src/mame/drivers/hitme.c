@@ -15,6 +15,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i8085/i8085.h"
 #include "includes/hitme.h"
 #include "sound/discrete.h"

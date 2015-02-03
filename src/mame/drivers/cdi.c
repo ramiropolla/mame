@@ -26,6 +26,7 @@ TODO:
 #define CLOCK_B XTAL_19_6608MHz
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "includes/cdi.h"
 #include "machine/timekpr.h"

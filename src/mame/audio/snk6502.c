@@ -11,6 +11,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/samples.h"
 #include "includes/snk6502.h"
 #include "sound/discrete.h"

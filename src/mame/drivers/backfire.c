@@ -12,6 +12,7 @@
 
 #define DE156CPU ARM
 #include "emu.h"
+#include "sound.h"
 #include "includes/decocrpt.h"
 #include "machine/eepromser.h"
 #include "sound/okim6295.h"

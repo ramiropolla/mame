@@ -125,6 +125,7 @@ NOTE: 2014-09-13: added code from someone's modified MESS driver for floppy
  */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/ram.h"
 #include "sound/ay8910.h"

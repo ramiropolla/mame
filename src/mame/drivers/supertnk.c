@@ -96,6 +96,7 @@ CRU lines:
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms9900/tms9980a.h"
 #include "sound/ay8910.h"
 

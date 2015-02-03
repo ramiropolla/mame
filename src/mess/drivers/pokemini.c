@@ -8,6 +8,7 @@ The LCD is likely to be a SSD1828 LCD.
 ********************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/speaker.h"
 #include "machine/i2cmem.h"
 #include "cpu/minx/minx.h"

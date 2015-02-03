@@ -21,6 +21,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i8085/i8085.h"
 
 #define MAIN_CLOCK XTAL_6_144MHz

@@ -299,6 +299,8 @@ Mark Gordon
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/adam.h"
 
 

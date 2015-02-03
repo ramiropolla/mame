@@ -125,6 +125,8 @@ CN1     - main board connector (17x2 pin header)
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/crvision.h"
 
 /***************************************************************************

@@ -5,6 +5,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i386/i386.h"
 #include "southbridge.h"
 #include "bus/pc_kbd/keyboards.h"

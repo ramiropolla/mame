@@ -5,6 +5,7 @@ Atari Tank 8 video emulation
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/tank8.h"
 
 

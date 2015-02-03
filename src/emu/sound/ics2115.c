@@ -8,6 +8,7 @@
 //Use tab size = 4 for your viewing pleasure.
 
 #include "emu.h"
+#include "sound.h"
 #include "ics2115.h"
 #include <cmath>
 

@@ -209,6 +209,7 @@
 #define MASTER_CLOCK    XTAL_6MHz   /* confirmed */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms9900/tms9980a.h"
 #include "video/mc6845.h"
 #include "sound/sn76477.h"

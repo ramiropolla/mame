@@ -108,6 +108,7 @@ chirp 12-..: vokume   0   : silent
 
 */
 #include "emu.h"
+#include "sound.h"
 #include "vlm5030.h"
 
 /* interpolator per frame   */

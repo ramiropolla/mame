@@ -10,6 +10,8 @@
 
 *********************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "a2mcms.h"
 #include "includes/apple2.h"
 

@@ -13,6 +13,7 @@ driver by Barry Rodewald
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i8085/i8085.h"
 #include "sound/samples.h"
 #include "sound/sn76477.h"

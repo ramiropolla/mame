@@ -35,6 +35,7 @@ DAC               -26.6860Mhz
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/2610intf.h"
 #include "includes/taito_f3.h"

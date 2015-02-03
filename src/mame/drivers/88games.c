@@ -5,6 +5,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6809/konami.h"
 #include "cpu/z80/z80.h"
 #include "sound/2151intf.h"

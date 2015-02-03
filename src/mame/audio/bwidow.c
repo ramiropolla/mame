@@ -2,6 +2,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/pokey.h"
 #include "sound/discrete.h"
 

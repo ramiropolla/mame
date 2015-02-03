@@ -18,6 +18,7 @@ XTAL        :   18.432 MHz
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "audio/wiping.h"
 #include "includes/clshroad.h"

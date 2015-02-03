@@ -44,6 +44,8 @@ Notes:
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "abc77.h"
 
 

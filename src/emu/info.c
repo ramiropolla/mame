@@ -9,6 +9,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "emuopts.h"
 #include "machine/ram.h"
 #include "sound/samples.h"

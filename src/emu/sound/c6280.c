@@ -54,6 +54,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "c6280.h"
 
 /* only needed for io_buffer */

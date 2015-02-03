@@ -24,6 +24,7 @@ Sound: AY-3-8912
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6809/m6809.h"
 #include "video/mc6845.h"
 #include "sound/ay8910.h"

@@ -236,6 +236,7 @@ Stephh's log (2006.09.20) :
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/pic16c5x/pic16c5x.h"
 #include "cpu/m68000/m68000.h"

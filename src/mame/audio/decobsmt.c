@@ -8,6 +8,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "audio/decobsmt.h"
 
 #define M6809_TAG   "soundcpu"

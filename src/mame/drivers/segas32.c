@@ -492,6 +492,7 @@ orunners:  Interleaved with the dj and << >> buttons is the data the drives the 
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/v60/v60.h"
 #include "cpu/nec/v25.h"

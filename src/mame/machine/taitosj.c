@@ -8,6 +8,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6805/m6805.h"
 #include "includes/taitosj.h"
 

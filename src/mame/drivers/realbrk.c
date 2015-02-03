@@ -42,6 +42,7 @@ To Do:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "includes/realbrk.h"
 #include "sound/2413intf.h"

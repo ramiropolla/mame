@@ -7,6 +7,7 @@
 **********************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/thomflop.h"
 #include "formats/thom_dsk.h"
 #include "includes/thomson.h"

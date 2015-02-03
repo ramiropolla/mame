@@ -445,6 +445,7 @@ $a00000 checks have been seen on the Final Lap boards.
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "cpu/m6805/m6805.h"
 #include "includes/namcos2.h"

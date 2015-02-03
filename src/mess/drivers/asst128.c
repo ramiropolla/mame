@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "sound.h"
 #include "includes/genpc.h"
 #include "machine/pc_fdc.h"
 #include "cpu/i86/i86.h"

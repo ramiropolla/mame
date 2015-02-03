@@ -32,6 +32,7 @@ TODO:
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "video/mc6847.h"
 #include "machine/i8251.h"

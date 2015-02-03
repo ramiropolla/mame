@@ -52,6 +52,7 @@ YM2203C
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "video/v9938.h"
 #include "machine/i8255.h"

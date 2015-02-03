@@ -8,6 +8,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i386/i386.h"
 #include "machine/ram.h"
 #include "machine/cs4031.h"

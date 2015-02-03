@@ -118,6 +118,7 @@ DIP locations verified for Blood Bros. & Sky Smasher via manual & DIP-SW setting
 **************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "audio/seibu.h"
 #include "cpu/z80/z80.h"

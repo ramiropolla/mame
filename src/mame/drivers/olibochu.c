@@ -52,6 +52,7 @@ $7004 writes, related to $7000 reads
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/ay8910.h"
 

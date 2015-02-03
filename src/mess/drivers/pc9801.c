@@ -386,6 +386,7 @@ Keyboard TX commands:
 ****************************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 
 #include "cpu/i86/i86.h"
 #include "cpu/nec/nec.h"

@@ -18,6 +18,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i386/i386.h"
 #include "machine/lpci.h"
 #include "machine/pcshare.h"

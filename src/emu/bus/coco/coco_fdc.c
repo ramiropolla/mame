@@ -67,6 +67,7 @@
 *********************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "coco_fdc.h"
 #include "imagedev/flopdrv.h"
 #include "includes/coco.h"

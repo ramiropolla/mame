@@ -14,6 +14,7 @@ silence compression: '00 nn' must be replaced by nn+1 times '80'.
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "n63701x.h"
 
 

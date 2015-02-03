@@ -41,6 +41,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/lc80.h"
 #include "lc80.lh"
 

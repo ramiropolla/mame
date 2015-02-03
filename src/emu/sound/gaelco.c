@@ -34,6 +34,7 @@ Registers per channel:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "gaelco.h"
 #include "wavwrite.h"
 

@@ -117,6 +117,7 @@ as well as Up Right, Cocktail or Flip Screen from the service menu.
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/h8/h8s2357.h"
 #include "sound/okim9810.h"
 #include "machine/eepromser.h"

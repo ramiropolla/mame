@@ -193,6 +193,7 @@
 *****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6800/m6800.h"
 #include "cpu/i8085/i8085.h"
 #include "sound/ay8910.h"

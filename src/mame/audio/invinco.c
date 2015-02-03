@@ -3,6 +3,7 @@
  */
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/vicdual.h"
 
 /* output port 0x02 definitions - sound effect drive outputs */

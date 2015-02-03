@@ -59,6 +59,7 @@ and/or http://ngs.no.coocan.jp/doc/wiki.cgi/datapack?page=4.2+MSX-AUDIO+%B3%C8%C
 **********************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "msx_audio.h"
 #include "bus/msx_cart/msx_audio_kb.h"
 

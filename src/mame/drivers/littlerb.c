@@ -65,6 +65,7 @@ Dip sw.2
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/dac.h"
 #include "machine/inder_vid.h"

@@ -21,6 +21,8 @@
 
 ***************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/coco12.h"
 #include "imagedev/cassette.h"
 #include "cpu/m6809/m6809.h"

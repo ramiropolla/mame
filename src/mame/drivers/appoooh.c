@@ -162,6 +162,7 @@ Language
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "includes/appoooh.h"
 #include "machine/segacrp2.h"

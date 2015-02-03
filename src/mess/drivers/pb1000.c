@@ -20,6 +20,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/hd61700/hd61700.h"
 #include "video/hd44352.h"
 #include "machine/nvram.h"

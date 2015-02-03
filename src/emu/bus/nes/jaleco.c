@@ -20,6 +20,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "jaleco.h"
 
 #include "cpu/m6502/m6502.h"

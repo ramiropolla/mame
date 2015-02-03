@@ -34,6 +34,8 @@ TODO:
 
 ***************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/osborne1.h"
 
 

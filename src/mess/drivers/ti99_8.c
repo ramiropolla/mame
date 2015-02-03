@@ -198,6 +198,7 @@ Known Issues (MZ, 2010-11-07)
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms9900/tms9995.h"
 
 #include "sound/sn76496.h"

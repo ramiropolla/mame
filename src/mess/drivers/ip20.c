@@ -17,6 +17,7 @@
 \*********************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mips/mips3.h"
 #include "machine/8530scc.h"
 #include "machine/sgi.h"

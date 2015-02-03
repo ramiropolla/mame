@@ -24,6 +24,10 @@ ToDO:
 ************************************************************************************************************/
 
 
+#include "emu.h"
+#include "sound.h"
+#include "emu.h"
+#include "sound.h"
 #include "machine/genpin.h"
 #include "audio/gottlieb.h"
 #include "gts80.lh"

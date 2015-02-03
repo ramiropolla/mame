@@ -7,6 +7,7 @@
 #include <sys/types.h>
 
 #include "emu.h"
+#include "sound.h"
 #include "osdcore.h"
 #include "includes/coco.h"
 

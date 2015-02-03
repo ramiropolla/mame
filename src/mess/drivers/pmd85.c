@@ -170,6 +170,7 @@ I/O ports
 *******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i8085/i8085.h"
 #include "sound/wave.h"
 #include "imagedev/cassette.h"

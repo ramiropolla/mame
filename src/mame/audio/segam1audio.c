@@ -6,6 +6,8 @@
 
 ***************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "audio/segam1audio.h"
 
 #define M68000_TAG      "m1sndcpu"

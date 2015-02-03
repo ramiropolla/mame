@@ -26,6 +26,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/hx20.h"
 
 

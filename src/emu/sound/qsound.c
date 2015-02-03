@@ -22,6 +22,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "qsound.h"
 
 // device type definition

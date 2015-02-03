@@ -32,6 +32,7 @@ Todo:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "formats/imageutl.h"
 #include "cpu/z80/z80.h"
 #include "video/mc6847.h"

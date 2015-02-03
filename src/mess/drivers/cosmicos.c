@@ -33,6 +33,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/cosmicos.h"
 #include "cosmicos.lh"
 

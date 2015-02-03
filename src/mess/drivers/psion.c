@@ -21,6 +21,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/psion.h"
 #include "rendlay.h"
 

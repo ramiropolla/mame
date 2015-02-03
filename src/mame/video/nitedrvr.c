@@ -5,6 +5,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/nitedrvr.h"
 
 WRITE8_MEMBER(nitedrvr_state::nitedrvr_videoram_w)

@@ -7,6 +7,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mips/r3000.h"
 #include "machine/ataintf.h"
 #include "includes/turrett.h"

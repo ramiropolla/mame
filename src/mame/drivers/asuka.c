@@ -213,6 +213,7 @@ DIP locations verified for:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/z180/z180.h"
 #include "cpu/m68000/m68000.h"

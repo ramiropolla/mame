@@ -124,6 +124,8 @@
 
 ***************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include <cstdio>
 
 #include "bus/midi/midi.h"

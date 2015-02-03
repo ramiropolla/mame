@@ -28,6 +28,7 @@
 #include <math.h>
 
 #include "emu.h"
+#include "sound.h"
 #include "mea8000.h"
 
 

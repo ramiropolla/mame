@@ -146,6 +146,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i8085/i8085.h"
 #include "machine/rescap.h"
 #include "includes/mw8080bw.h"

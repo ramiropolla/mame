@@ -35,6 +35,7 @@ To Do:
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/wd_fdc.h"
 #include "machine/i8251.h"

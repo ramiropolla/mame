@@ -36,6 +36,7 @@ Manuals for both games define the controls as 4 push buttons:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "cpu/z80/z80.h"
 #include "sound/okim6295.h"

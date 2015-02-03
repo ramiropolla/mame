@@ -9,6 +9,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "debug/debugcpu.h"
 
 

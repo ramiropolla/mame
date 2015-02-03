@@ -17,6 +17,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "vp550.h"
 
 

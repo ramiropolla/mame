@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "sound.h"
 #include "includes/spectrum.h"
 #include "imagedev/snapquik.h"
 #include "imagedev/cassette.h"

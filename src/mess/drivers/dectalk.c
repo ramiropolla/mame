@@ -273,6 +273,8 @@ dgc (dg(no!spam)cx@mac.com)
 #undef SERIAL_TO_STDERR
 
 /* Core includes */
+#include "emu.h"
+#include "sound.h"
 #include "bus/rs232/rs232.h"
 #include "cpu/m68000/m68000.h"
 #include "cpu/tms32010/tms32010.h"

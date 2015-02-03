@@ -8,6 +8,7 @@
 *********************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "a2mockingboard.h"
 
 

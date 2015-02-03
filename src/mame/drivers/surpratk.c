@@ -9,6 +9,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6809/konami.h" /* for the callback and the firq irq definition */
 #include "sound/2151intf.h"
 #include "includes/konamipt.h"

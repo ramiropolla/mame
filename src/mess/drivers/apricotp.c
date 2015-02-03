@@ -24,6 +24,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/apricotp.h"
 #include "apricotp.lh"
 

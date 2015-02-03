@@ -2,6 +2,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/inder_sb.h"
 
 

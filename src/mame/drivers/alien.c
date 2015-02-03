@@ -15,6 +15,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/sh4/sh4.h"
 
 #define MASTER_CLOCK    XTAL_200MHz

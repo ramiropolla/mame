@@ -14,6 +14,7 @@ of the games were clocked at around 500KHz, 550KHz, or 300KHz.
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mcs48/mcs48.h"
 #include "cpu/tms0980/tms0980.h"
 #include "sound/dac.h"

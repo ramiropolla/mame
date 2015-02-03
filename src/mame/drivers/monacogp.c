@@ -105,6 +105,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 
 #include "machine/netlist.h"
 #include "netlist/devices/net_lib.h"

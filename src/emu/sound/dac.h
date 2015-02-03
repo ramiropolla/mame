@@ -39,7 +39,7 @@ public:
 
 	// public interface
 	INT16 output() const { return m_output; }
-	void write(INT16 data) { m_stream->update(); m_output = data; }
+	void write(INT16 data);
 	void write_unsigned8(UINT8 data) { write(data * 32767 / 255); }         // 0..255, mapped to 0..32767
 	void write_signed8(UINT8 data) { write((data - 0x80) * 32767 / 128); }  // 0..255, mapped to -32767..32767
 	void write_unsigned16(UINT16 data) { write(data / 2); }                 // 0..65535, mapped to 0..32767

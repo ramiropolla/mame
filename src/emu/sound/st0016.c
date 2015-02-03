@@ -4,6 +4,7 @@
 ************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "st0016.h"
 
 #define VERBOSE (0)

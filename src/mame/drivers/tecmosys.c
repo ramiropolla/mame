@@ -181,6 +181,7 @@ ae500w07.ad1 - M6295 Samples (23c4001)
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/eepromser.h"
 #include "includes/tecmosys.h"

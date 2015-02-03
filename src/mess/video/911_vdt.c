@@ -11,6 +11,7 @@ TODO:
 
 
 #include "emu.h"
+#include "sound.h"
 #include "911_vdt.h"
 #include "911_chr.h"
 #include "911_key.h"

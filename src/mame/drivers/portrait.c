@@ -84,6 +84,7 @@ DM81LS95 = TriState buffer
 **************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/mcs48/mcs48.h"
 #include "sound/tms5220.h"

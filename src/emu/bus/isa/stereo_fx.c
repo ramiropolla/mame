@@ -2,6 +2,8 @@
 //
 // TODO: UART is connected to MIDI port
 
+#include "emu.h"
+#include "sound.h"
 #include "stereo_fx.h"
 
 const device_type ISA8_STEREO_FX = &device_creator<stereo_fx_device>;

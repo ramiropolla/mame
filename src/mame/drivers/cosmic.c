@@ -33,6 +33,7 @@ cosmicg - board can operate in b&w mode if there is no PROM, in this case
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms9900/tms9980a.h"
 #include "cpu/z80/z80.h"
 #include "sound/samples.h"

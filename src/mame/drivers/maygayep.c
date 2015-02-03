@@ -31,6 +31,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/h8/h83002.h"
 #include "sound/ymz280b.h"
 

@@ -182,6 +182,7 @@ TODO:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6809/m6809.h"
 #include "machine/tait8741.h"
 #include "cpu/z80/z80.h"

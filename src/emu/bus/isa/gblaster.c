@@ -5,6 +5,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "gblaster.h"
 #include "sound/speaker.h"
 

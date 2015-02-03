@@ -254,6 +254,7 @@ XT U44 IBM.bin: IBM 5160 PC/XT Bank-selection decoding ROM (256x4 bit). Not mapp
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i86/i86.h"
 #include "machine/ram.h"
 #include "bus/isa/isa.h"

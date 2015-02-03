@@ -870,6 +870,7 @@ CPU  - 317-0092  |--------------------------------------------------------------
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/segas16b.h"
 #include "machine/segaic16.h"
 #include "machine/mc8123.h"

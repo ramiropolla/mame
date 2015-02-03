@@ -262,6 +262,7 @@ Notes:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "includes/taitoipt.h"
 #include "cpu/m68000/m68000.h"

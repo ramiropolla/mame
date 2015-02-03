@@ -43,6 +43,7 @@ Note : there is an ingame typo bug that doesn't display the bonus life values
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/2203intf.h"
 #include "includes/commando.h"

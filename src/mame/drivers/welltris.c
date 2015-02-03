@@ -313,6 +313,7 @@ TODO:
 #define WELLTRIS_4P_HACK 0
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/2610intf.h"

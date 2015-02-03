@@ -312,6 +312,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/powerpc/ppc.h"
 #include "machine/lpci.h"
 #include "machine/ataintf.h"

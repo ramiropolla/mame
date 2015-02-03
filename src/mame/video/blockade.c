@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "sound.h"
 #include "includes/blockade.h"
 
 WRITE8_MEMBER(blockade_state::blockade_videoram_w)

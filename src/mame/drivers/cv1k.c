@@ -168,6 +168,7 @@ Blitter Timing
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/sh4/sh4.h"
 #include "cpu/sh4/sh3comn.h"
 #include "profiler.h"

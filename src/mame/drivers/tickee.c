@@ -22,6 +22,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms34010/tms34010.h"
 #include "machine/ticket.h"
 #include "video/tlc34076.h"

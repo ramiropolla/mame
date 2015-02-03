@@ -37,6 +37,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/macpci.h"
 #include "cpu/powerpc/ppc.h"
 #include "imagedev/chd_cd.h"

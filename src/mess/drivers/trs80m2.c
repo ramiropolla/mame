@@ -21,6 +21,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/trs80m2.h"
 
 #define KEYBOARD_TAG "keyboard"

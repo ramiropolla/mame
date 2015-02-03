@@ -364,6 +364,7 @@ D                                                                               
 // Directives
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "cpu/alph8201/alph8201.h"
 #include "cpu/i8085/i8085.h"

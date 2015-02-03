@@ -145,6 +145,7 @@ REF. 970429
 **************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "includes/gaelco3d.h"
 #include "cpu/tms32031/tms32031.h"

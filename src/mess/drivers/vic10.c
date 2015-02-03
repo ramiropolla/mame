@@ -11,6 +11,8 @@
 
 
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/vic10.h"
 
 

@@ -47,6 +47,7 @@ R.Schaefer Oct 2010
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "glasgow.lh"
 #include "sound/beep.h"

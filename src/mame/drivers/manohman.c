@@ -133,6 +133,7 @@
 #define SECONDARY_CLOCK     XTAL_3_6864MHz
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/saa1099.h"
 

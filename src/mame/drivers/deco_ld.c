@@ -109,6 +109,7 @@ Sound processor - 6502
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "sound/ay8910.h"
 #include "machine/ldv1000.h"

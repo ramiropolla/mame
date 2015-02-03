@@ -6,6 +6,8 @@
 
 *********************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "a2echoii.h"
 #include "includes/apple2.h"
 #include "sound/tms5220.h"

@@ -551,6 +551,7 @@
 #define DPHL_CPU_CLOCK          DPHL_MASTER_CLOCK / 9       /* 2 MHz (from 8224) */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/i8085/i8085.h"
 #include "machine/i8255.h"

@@ -657,6 +657,7 @@ ALL VROM ROMs are 16M MASK
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "cpu/powerpc/ppc.h"
 #include "machine/eepromser.h"

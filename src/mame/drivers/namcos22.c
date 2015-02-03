@@ -1155,6 +1155,7 @@
  */
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/namcos22.h"
 #include "cpu/m68000/m68000.h"
 #include "cpu/tms32025/tms32025.h"

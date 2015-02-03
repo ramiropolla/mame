@@ -39,6 +39,7 @@ ClawGrip, Jul 2006
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "sound/2203intf.h"
 #include "sound/3812intf.h"

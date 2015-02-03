@@ -149,6 +149,8 @@ Notes:
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/v1050.h"
 #include "bus/rs232/rs232.h"
 

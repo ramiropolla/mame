@@ -26,6 +26,8 @@
 
 #define VERBOSE 0
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/apollo.h"
 #include "debugger.h"
 #include "cpu/m68000/m68kcpu.h"

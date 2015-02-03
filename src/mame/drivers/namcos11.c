@@ -270,6 +270,7 @@ Notes:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/psx/psx.h"
 #include "video/psx.h"
 #include "machine/at28c16.h"

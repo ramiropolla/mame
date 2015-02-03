@@ -5,6 +5,7 @@ Atari Sprint 8 video emulation
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/sprint8.h"
 
 

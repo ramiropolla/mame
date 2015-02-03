@@ -64,6 +64,7 @@ correctly.
 #define AUDIO_CLOCK     (XTAL_12MHz/8) /* 12MHz is the only OSC on the PCB */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/ay8910.h"
 #include "machine/netlist.h"

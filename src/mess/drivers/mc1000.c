@@ -22,6 +22,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/mc1000.h"
 
 /* Memory Banking */

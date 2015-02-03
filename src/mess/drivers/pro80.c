@@ -18,6 +18,7 @@ The cassette used 2 bits for input, plus a D flipflop and a 74LS221 oneshot.
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "imagedev/cassette.h"
 #include "sound/wave.h"

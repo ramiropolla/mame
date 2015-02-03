@@ -14,6 +14,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms0980/tms0980.h"
 #include "sound/tms5110.h"
 #include "machine/tms6100.h"

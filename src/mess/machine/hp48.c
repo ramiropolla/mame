@@ -7,6 +7,7 @@
 **********************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/dac.h"
 #include "cpu/saturn/saturn.h"
 

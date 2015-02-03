@@ -30,6 +30,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "asc.h"
 
 // device type definition

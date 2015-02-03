@@ -44,6 +44,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "xboard.h"
 #include "a78_carts.h"
 

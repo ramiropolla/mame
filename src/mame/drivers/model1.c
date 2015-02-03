@@ -625,6 +625,7 @@ Notes:
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/v60/v60.h"
 #include "video/segaic24.h"
 #include "cpu/mb86233/mb86233.h"

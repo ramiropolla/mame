@@ -42,6 +42,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/g65816/g65816.h"
 #include "includes/apple2.h"
 #include "imagedev/flopdrv.h"

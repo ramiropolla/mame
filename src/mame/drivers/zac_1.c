@@ -30,6 +30,8 @@ ToDo:
 **************************************************************************************/
 
 
+#include "emu.h"
+#include "sound.h"
 #include "machine/genpin.h"
 #include "cpu/s2650/s2650.h"
 #include "zac_1.lh"

@@ -9,6 +9,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "aica.h"
 
 #define ICLIP16(x) (x<-32768)?-32768:((x>32767)?32767:x)

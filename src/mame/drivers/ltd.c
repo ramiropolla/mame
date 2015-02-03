@@ -40,6 +40,10 @@ ToDo:
 
 ********************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
+#include "emu.h"
+#include "sound.h"
 #include "machine/genpin.h"
 #include "cpu/m6800/m6800.h"
 #include "sound/ay8910.h"

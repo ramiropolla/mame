@@ -27,6 +27,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/victor9k.h"
 
 

@@ -114,6 +114,7 @@ DIP locations verified for:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/m6502/n2a03.h"
 #include "sound/nes_apu.h"

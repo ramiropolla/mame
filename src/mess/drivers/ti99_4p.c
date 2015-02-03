@@ -38,6 +38,7 @@
 *****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms9900/tms9900.h"
 #include "sound/wave.h"
 #include "sound/dac.h"

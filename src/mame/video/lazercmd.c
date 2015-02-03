@@ -5,6 +5,7 @@
 /*************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/lazercmd.h"
 
 /* scale a markers vertical position */

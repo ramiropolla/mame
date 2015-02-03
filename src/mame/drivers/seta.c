@@ -1355,6 +1355,7 @@ Note: on screen copyright is (c)1998 Coinmaster.
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/m68000/m68000.h"
 #include "cpu/m6502/m65c02.h"

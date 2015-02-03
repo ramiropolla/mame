@@ -61,6 +61,7 @@
  *****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "pokey.h"
 
 #include "debugger.h"

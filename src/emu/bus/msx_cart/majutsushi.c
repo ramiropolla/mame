@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "sound.h"
 #include "majutsushi.h"
 
 const device_type MSX_CART_MAJUTSUSHI = &device_creator<msx_cart_majutsushi>;

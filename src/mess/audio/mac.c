@@ -8,6 +8,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/asc.h"
 #include "includes/mac.h"
 #include "machine/ram.h"

@@ -13,6 +13,7 @@
 ************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 
 #include "cpu/mcs51/mcs51.h"
 #include "sound/ay8910.h"

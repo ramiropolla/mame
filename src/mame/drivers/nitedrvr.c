@@ -35,6 +35,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "machine/rescap.h"
 #include "sound/discrete.h"

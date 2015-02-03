@@ -18,6 +18,7 @@ TODO:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "ymz770.h"
 #include "mpeg_audio.h"
 

@@ -17,6 +17,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "ldvp931.h"
 
 

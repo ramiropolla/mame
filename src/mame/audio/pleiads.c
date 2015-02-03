@@ -7,6 +7,7 @@
  *
  ****************************************************************************/
 #include "emu.h"
+#include "sound.h"
 #include "audio/pleiads.h"
 
 #define VMIN    0

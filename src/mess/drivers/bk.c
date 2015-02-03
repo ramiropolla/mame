@@ -8,6 +8,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/t11/t11.h"
 #include "sound/wave.h"
 #include "includes/bk.h"

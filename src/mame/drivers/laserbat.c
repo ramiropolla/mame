@@ -17,6 +17,7 @@ TODO:
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6800/m6800.h"
 #include "cpu/s2650/s2650.h"
 #include "machine/6821pia.h"

@@ -20,6 +20,7 @@ Notes:
 ******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/tmpz84c011.h"
 #include "machine/nvram.h"
 #include "includes/nb1413m3.h"      // needed for mahjong input controller

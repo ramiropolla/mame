@@ -167,6 +167,7 @@ Super Strong Warriors
 /********** BITS & PIECES **********/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/v60/v60.h"
 #include "sound/ymf271.h"

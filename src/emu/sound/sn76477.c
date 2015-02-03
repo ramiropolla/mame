@@ -28,6 +28,7 @@
  *****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "wavwrite.h"
 #include "sn76477.h"
 

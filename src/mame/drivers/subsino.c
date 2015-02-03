@@ -217,6 +217,7 @@ To Do:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z180/z180.h"
 #include "machine/i8255.h"
 #include "machine/subsino.h"

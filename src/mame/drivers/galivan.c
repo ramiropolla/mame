@@ -28,6 +28,7 @@ Takahiro Nogi (nogi@kt.rim.or.jp) 1999/12/17 -
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/dac.h"
 #include "sound/3526intf.h"

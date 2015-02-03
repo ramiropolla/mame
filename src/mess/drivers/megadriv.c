@@ -1,5 +1,6 @@
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/md_cons.h"
 #include "sound/sn76496.h"
 

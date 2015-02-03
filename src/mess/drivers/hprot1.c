@@ -56,6 +56,7 @@ Infinite loop is reached at address 0x7699
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mcs51/mcs51.h"
 #include "video/hd44780.h"
 #include "sound/speaker.h"

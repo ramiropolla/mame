@@ -15,6 +15,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "ibm_mfc.h"
 #include "cpu/z80/z80.h"
 #include "machine/clock.h"

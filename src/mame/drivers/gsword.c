@@ -142,6 +142,7 @@ reg: 0->1 (main->2nd) /     : (1->0) 2nd->main :
 ******************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/tait8741.h"
 #include "sound/ay8910.h"

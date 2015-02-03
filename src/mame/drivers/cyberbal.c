@@ -22,6 +22,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/2151intf.h"
 #include "rendlay.h"
 #include "includes/cyberbal.h"

@@ -113,6 +113,8 @@ Notes:
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/tmc1800.h"
 #include "sound/beep.h"
 

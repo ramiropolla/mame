@@ -5,6 +5,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/meadows.h"
 
 /* some constants to make life easier */

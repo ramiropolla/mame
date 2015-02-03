@@ -50,6 +50,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/coco.h"
 #include "coco_multi.h"
 #include "coco_232.h"

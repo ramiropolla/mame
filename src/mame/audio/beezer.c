@@ -50,6 +50,7 @@
 *************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/rescap.h"
 #include "includes/beezer.h"
 

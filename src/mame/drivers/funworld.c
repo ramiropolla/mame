@@ -983,6 +983,7 @@
 #define CRTC_CLOCK     (MASTER_CLOCK/8)
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/r65c02.h"
 #include "cpu/m6502/m65sc02.h"
 #include "video/mc6845.h"

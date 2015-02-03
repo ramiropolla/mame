@@ -247,7 +247,7 @@ protected:
 	virtual void sound_stream_update(sound_stream &stream, stream_sample_t **inputs, stream_sample_t **outputs, int samples);
 
 	// subclass helpers
-	void set_audio_squelch(bool squelchleft, bool squelchright) { m_stream->update(); m_audiosquelch = (squelchleft ? 1 : 0) | (squelchright ? 2 : 0); }
+	void set_audio_squelch(bool squelchleft, bool squelchright);
 	void set_video_squelch(bool squelch) { m_videosquelch = squelch; }
 	void set_slider_speed(INT32 tracks_per_vsync);
 	void advance_slider(INT32 numtracks);

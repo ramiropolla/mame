@@ -51,6 +51,7 @@ ToDo:
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6510.h"
 #include "cpu/avr8/avr8.h"
 #include "machine/mos6526.h"

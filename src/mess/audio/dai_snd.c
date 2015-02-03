@@ -9,6 +9,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "dai_snd.h"
 
 // device type definition

@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mcs48/mcs48.h"
 #include "sound/nes_apu.h"
 #include "sound/discrete.h"

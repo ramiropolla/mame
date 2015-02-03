@@ -100,6 +100,7 @@ TODO:
 ******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/nec/nec.h"
 #include "machine/pic8259.h"
 #include "machine/pit8253.h"

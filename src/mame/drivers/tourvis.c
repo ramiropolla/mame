@@ -194,6 +194,7 @@ I can't tell ATM if units are seconds (even if values in tables seem very relate
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i8085/i8085.h"
 #include "machine/pcecommn.h"
 #include "video/huc6260.h"

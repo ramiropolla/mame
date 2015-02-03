@@ -29,6 +29,7 @@ http://www.dragons-lair-project.com/tech/pages/dl2.asp
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i86/i86.h"
 
 #define MAIN_CLOCK XTAL_30MHz

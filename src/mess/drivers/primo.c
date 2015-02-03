@@ -105,6 +105,7 @@ Interrupts:
 *******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/speaker.h"
 #include "sound/wave.h"
 #include "includes/primo.h"

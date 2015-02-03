@@ -18,6 +18,7 @@
 *********************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "bus/oricext/oricext.h"
 #include "cpu/m6502/m6502.h"
 #include "sound/ay8910.h"

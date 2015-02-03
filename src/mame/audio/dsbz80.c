@@ -8,6 +8,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "audio/dsbz80.h"
 
 #define Z80_TAG "mpegcpu"

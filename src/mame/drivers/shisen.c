@@ -7,6 +7,7 @@ driver by Nicola Salmoria
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/dac.h"
 #include "sound/2151intf.h"

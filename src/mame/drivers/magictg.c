@@ -114,6 +114,7 @@ Medium size chip with heat sink on it
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mips/mips3.h"
 #include "cpu/adsp2100/adsp2100.h"
 #include "sound/dmadac.h"

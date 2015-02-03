@@ -53,6 +53,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/z80ctc.h"
 #include "machine/z80pio.h"
 #include "machine/z80dart.h"

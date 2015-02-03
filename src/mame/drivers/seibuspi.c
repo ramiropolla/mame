@@ -843,6 +843,7 @@ Notes:
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/i386/i386.h"
 #include "machine/ds2404.h"

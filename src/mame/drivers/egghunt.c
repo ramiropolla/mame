@@ -42,6 +42,7 @@ I dumped it with this configuration. In case I'll redump it desoldering pin 16 f
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/okim6295.h"
 

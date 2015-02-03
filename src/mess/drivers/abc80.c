@@ -77,6 +77,8 @@ Notes:
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/abc80.h"
 
 #define KEYBOARD_TAG "keyboard"

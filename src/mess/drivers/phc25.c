@@ -37,6 +37,8 @@ RUN
 
 *****************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/phc25.h"
 
 /* Read/Write Handlers */

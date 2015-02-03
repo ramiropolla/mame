@@ -7,6 +7,7 @@
 ******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m65sc02.h"
 #include "audio/lynx.h"
 #include "includes/lynx.h"

@@ -26,6 +26,7 @@
 ****************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i86/i86.h"
 #include "machine/i8155.h"
 #include "machine/nvram.h"

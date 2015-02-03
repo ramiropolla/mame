@@ -192,6 +192,7 @@
 #define SND_CLOCK       XTAL_3_579545MHz
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "sound/ay8910.h"
 #include "sound/2413intf.h"

@@ -7,6 +7,7 @@
  */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m65c02.h"
 #include "cpu/m6809/m6809.h"
 #include "cpu/m6800/m6800.h"

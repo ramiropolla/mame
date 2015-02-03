@@ -12,6 +12,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/plus4.h"
 #include "machine/cbm_snqk.h"
 #include "sound/t6721a.h"

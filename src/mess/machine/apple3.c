@@ -43,6 +43,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/apple3.h"
 #include "includes/apple2.h"
 

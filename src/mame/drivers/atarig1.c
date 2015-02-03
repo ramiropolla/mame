@@ -21,6 +21,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "video/atarirle.h"
 #include "includes/atarig1.h"
 

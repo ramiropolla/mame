@@ -19,6 +19,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "rom.h"
 
 

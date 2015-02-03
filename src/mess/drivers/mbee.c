@@ -129,6 +129,8 @@
 ****************************************************************************/
 
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/mbee.h"
 #include "formats/mbee_dsk.h"
 #include "formats/mbee_cas.h"

@@ -5,6 +5,7 @@
  */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpc_pds.h"
 #include "includes/amstrad.h"
 

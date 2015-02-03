@@ -127,6 +127,8 @@ ROMs -
 
 ----------------------------------------------------------------*/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/psikyo4.h"
 #include "rendlay.h"
 

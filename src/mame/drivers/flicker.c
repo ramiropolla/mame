@@ -19,6 +19,8 @@
 
 ************************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "machine/genpin.h"
 #include "cpu/i4004/i4004.h"
 #include "flicker.lh"

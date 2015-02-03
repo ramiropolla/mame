@@ -44,6 +44,7 @@ single plane board.
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/tigeroad.h"
 
 

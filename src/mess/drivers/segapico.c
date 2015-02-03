@@ -116,6 +116,7 @@ C = MB3514 / 9325 M36
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/md_cons.h"
 #include "sound/upd7759.h"
 

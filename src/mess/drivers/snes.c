@@ -27,6 +27,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "audio/snes_snd.h"
 #include "cpu/spc700/spc700.h"
 #include "includes/snes.h"

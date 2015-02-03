@@ -32,6 +32,8 @@
  * being printed (epson_lx810l_t::co0_w()).
  */
 
+#include "emu.h"
+#include "sound.h"
 #include "epson_lx810l.h"
 extern const char layout_lx800[]; /* use layout from lx800 */
 

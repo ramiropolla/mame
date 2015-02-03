@@ -53,6 +53,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i86/i86.h"
 #include "imagedev/flopdrv.h"
 #include "formats/mfi_dsk.h"

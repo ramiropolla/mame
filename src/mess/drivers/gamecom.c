@@ -27,6 +27,8 @@ Game Status:
 
 ***************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/gamecom.h"
 #include "gamecom.lh"
 

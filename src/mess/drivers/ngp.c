@@ -96,6 +96,7 @@ the Neogeo Pocket.
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tlcs900/tlcs900.h"
 #include "cpu/z80/z80.h"
 #include "sound/t6w28.h"

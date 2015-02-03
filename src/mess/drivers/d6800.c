@@ -39,6 +39,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6800/m6800.h"
 #include "sound/beep.h"
 #include "imagedev/cassette.h"

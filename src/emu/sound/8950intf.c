@@ -16,6 +16,8 @@
 * NOTES
 *
 ******************************************************************************/
+#include "emu.h"
+#include "sound.h"
 #include "8950intf.h"
 #include "fm.h"
 #include "fmopl.h"

@@ -13,6 +13,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mcs48/mcs48.h"
 #include "video/i8244.h"
 #include "machine/i8243.h"

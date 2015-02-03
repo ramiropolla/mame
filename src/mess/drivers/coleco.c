@@ -61,6 +61,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/coleco.h"
 
 

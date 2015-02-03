@@ -18,6 +18,7 @@ TODO:
 *******************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/okim6295.h"
 #include "machine/eepromser.h"

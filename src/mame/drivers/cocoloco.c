@@ -176,6 +176,7 @@
 #define SND_CLOCK       MASTER_CLOCK / 8     /* confirmed */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "sound/ay8910.h"
 #include "machine/netlist.h"

@@ -15,6 +15,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "i82371ab.h"
 
 const device_type I82371AB = &device_creator<i82371ab_device>;

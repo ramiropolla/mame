@@ -310,6 +310,7 @@ The first sprite data is located at f20b,then f21b and so on.
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/2203intf.h"
 #include "includes/psychic5.h"

@@ -189,6 +189,7 @@ Release:                         November 1999
 ********************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/nec/nec.h"
 #include "sound/okim6295.h"
 #include "sound/ymz280b.h"

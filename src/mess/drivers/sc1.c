@@ -37,6 +37,7 @@ Port 82 in - upper byte = 0 thru 7
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/speaker.h"
 #include "machine/z80pio.h"

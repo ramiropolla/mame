@@ -5,6 +5,7 @@ Atari Canyon Bomber video emulation
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/canyon.h"
 
 

@@ -9,6 +9,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "audio/williams.h"
 #include "includes/mcr.h"
 #include "audio/midway.h"

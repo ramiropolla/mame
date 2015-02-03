@@ -59,6 +59,7 @@ Timings:
 *******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/dai.h"
 
 /* I/O ports */

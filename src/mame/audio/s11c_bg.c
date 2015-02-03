@@ -5,6 +5,8 @@
  *      Author: bsr
  */
 
+#include "emu.h"
+#include "sound.h"
 #include "s11c_bg.h"
 
 

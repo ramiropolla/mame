@@ -18,6 +18,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms0980/tms0980.h"
 #include "sound/speaker.h"
 

@@ -265,6 +265,7 @@ Kono Tako                             10021 Ver.A   KC034A   8E, 8D
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/psx/psx.h"
 #include "video/psx.h"
 

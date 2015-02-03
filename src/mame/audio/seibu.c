@@ -33,6 +33,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "audio/seibu.h"
 #include "sound/3812intf.h"
 #include "sound/2151intf.h"

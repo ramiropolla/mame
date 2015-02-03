@@ -24,6 +24,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "cdp1864.h"
 
 

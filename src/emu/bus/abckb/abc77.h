@@ -14,7 +14,6 @@
 #ifndef __ABC77__
 #define __ABC77__
 
-#include "emu.h"
 #include "cpu/mcs48/mcs48.h"
 #include "abckb.h"
 #include "sound/discrete.h"

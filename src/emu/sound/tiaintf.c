@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "sound.h"
 #include "tiaintf.h"
 #include "tiasound.h"
 

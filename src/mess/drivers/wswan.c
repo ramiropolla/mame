@@ -31,6 +31,8 @@
 
 ***************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/wswan.h"
 #include "wswan.lh"
 

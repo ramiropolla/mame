@@ -40,6 +40,7 @@
 
 /* Core includes */
 #include "emu.h"
+#include "sound.h"
 
 /* Components */
 #include "bus/rs232/rs232.h"

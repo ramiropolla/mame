@@ -10,6 +10,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/bfm_ad5.h"
 #include "machine/mcf5206e.h"
 

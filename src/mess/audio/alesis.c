@@ -12,6 +12,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/alesis.h"
 
 #define LOG 1

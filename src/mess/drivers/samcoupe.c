@@ -28,6 +28,7 @@
 
 /* core includes */
 #include "emu.h"
+#include "sound.h"
 #include "includes/samcoupe.h"
 #
 /* components */

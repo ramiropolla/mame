@@ -255,6 +255,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "imagedev/cassette.h"
 #include "bus/centronics/ctronics.h"

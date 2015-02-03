@@ -14,6 +14,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "imagedev/cassette.h"
 #include "wave.h"
 

@@ -10,6 +10,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "debugger.h"
 #include "tms57002.h"
 

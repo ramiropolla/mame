@@ -9,6 +9,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "ms7004.h"
 
 #define VERBOSE_DBG 1       /* general debug messages */

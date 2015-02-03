@@ -27,6 +27,7 @@
  *****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/arm/arm.h"
 #include "includes/archimds.h"
 #include "debugger.h"

@@ -114,6 +114,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/micronic.h"
 #include "rendlay.h"
 

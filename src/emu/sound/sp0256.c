@@ -32,6 +32,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "sp0256.h"
 
 #define CLOCK_DIVIDER (7*6*8)

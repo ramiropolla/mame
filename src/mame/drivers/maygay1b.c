@@ -73,6 +73,7 @@
               Some games require dongles for security, need to figure this out.
 ******************************************************************************************/
 #include "emu.h"
+#include "sound.h"
 #include "includes/maygay1b.h"
 
 #include "maygay1b.lh"

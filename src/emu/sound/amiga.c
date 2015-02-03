@@ -4,6 +4,8 @@
 
 ***************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "amiga.h"
 #include "includes/amiga.h"
 

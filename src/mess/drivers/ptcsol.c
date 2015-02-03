@@ -101,6 +101,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i8085/i8085.h"
 #include "machine/keyboard.h"
 #include "sound/wave.h"

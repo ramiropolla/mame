@@ -100,6 +100,7 @@ TEST.TXT - suggests the content of a prototype version, which was expanded to ma
 
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/68340.h"
 #include "sound/ymz280b.h"
 

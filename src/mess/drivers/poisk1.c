@@ -7,6 +7,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 
 #include "includes/poisk1.h"
 #include "machine/kb_poisk1.h"

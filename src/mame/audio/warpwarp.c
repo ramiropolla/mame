@@ -8,6 +8,7 @@
  ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "audio/warpwarp.h"
 
 #define CLOCK_16H   (18432000/3/2/16)

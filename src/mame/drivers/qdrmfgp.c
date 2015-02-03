@@ -23,6 +23,7 @@ GP1 HDD data contents:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "machine/ataintf.h"
 #include "sound/k054539.h"

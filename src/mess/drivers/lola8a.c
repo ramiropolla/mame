@@ -20,6 +20,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i8085/i8085.h"
 #include "video/mc6845.h"
 #include "sound/ay8910.h"

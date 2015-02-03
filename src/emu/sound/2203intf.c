@@ -1,3 +1,5 @@
+#include "emu.h"
+#include "sound.h"
 #include "2203intf.h"
 #include "fm.h"
 

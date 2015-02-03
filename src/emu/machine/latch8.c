@@ -7,6 +7,7 @@
 **********************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "latch8.h"
 
 void latch8_device::update(UINT8 new_val, UINT8 mask)

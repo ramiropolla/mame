@@ -7,6 +7,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "audio/wiping.h"
 
 static const int samplerate = 48000;

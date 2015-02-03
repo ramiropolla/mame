@@ -443,6 +443,7 @@
 #define MASTER_CLOCK    XTAL_10MHz
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "video/mc6845.h"
 #include "machine/6821pia.h"

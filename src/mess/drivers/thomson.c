@@ -68,6 +68,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/thomson.h"
 #include "bus/rs232/rs232.h"
 #include "machine/6821pia.h"

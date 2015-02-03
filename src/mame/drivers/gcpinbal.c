@@ -72,6 +72,7 @@ Custom: EXCELLENT SYSTEM ES-9208 347102 (QFP160)
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/okim6295.h"
 #include "sound/msm5205.h"

@@ -272,6 +272,7 @@ Notes:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/segaorun.h"
 #include "machine/fd1089.h"
 #include "machine/segaic16.h"

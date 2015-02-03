@@ -2,7 +2,6 @@
 #define GENPIN_H_
 
 
-#include "emu.h"
 #include "sound/samples.h"
 #include "machine/nvram.h"
 

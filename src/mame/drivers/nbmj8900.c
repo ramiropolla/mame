@@ -24,6 +24,7 @@ TODO:
 ******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/dac.h"
 #include "sound/ay8910.h"

@@ -48,6 +48,7 @@ Stephh's notes (based on the game M68000 code and some tests) :
 #define SOUND_CPU_CLOCK     (XTAL_32MHz / 8)        /* 4 MHz clock for Z80 sound CPU */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/m68000/m68000.h"
 #include "includes/taitoipt.h"

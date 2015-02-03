@@ -12,6 +12,7 @@ The ppi at 3000-3003 seems to be a dual port communication thing with the z80.
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/m6502/m65c02.h"
 #include "video/mc6845.h"

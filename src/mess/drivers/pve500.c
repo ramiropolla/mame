@@ -45,6 +45,7 @@
 #define DEBUGGING_INDUCE_SELFDIAGNOSE 0
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/tmpz84c015.h"
 #include "cpu/mb88xx/mb88xx.h"
 #include "sound/beep.h"

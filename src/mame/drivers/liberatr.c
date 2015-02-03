@@ -135,6 +135,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/liberatr.h"
 
 #define MASTER_CLOCK 20000000 /* 20Mhz Main Clock Xtal */

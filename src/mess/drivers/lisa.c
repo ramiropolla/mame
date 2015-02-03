@@ -9,6 +9,7 @@
 *********************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6504.h"
 #include "cpu/cop400/cop400.h"
 #include "includes/lisa.h"

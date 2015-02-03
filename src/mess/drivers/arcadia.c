@@ -117,6 +117,8 @@ anything in hardware. No cartridge has been found which uses them.
 
 ******************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/arcadia.h"
 
 static ADDRESS_MAP_START( arcadia_mem, AS_PROGRAM, 8, arcadia_state )

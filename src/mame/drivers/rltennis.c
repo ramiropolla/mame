@@ -59,6 +59,7 @@ player - when there's nothing to play - first, empty 2k of ROMs are selected.
 
 ****************************************************************************************/
 #include "emu.h"
+#include "sound.h"
 #include "includes/rltennis.h"
 #include "cpu/m68000/m68000.h"
 #include "machine/nvram.h"

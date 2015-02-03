@@ -82,6 +82,7 @@ There's a separate sound board also, but it wasn't available so is not documente
 **************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms34010/tms34010.h"
 #include "cpu/adsp2100/adsp2100.h"
 #include "audio/dcs.h"

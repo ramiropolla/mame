@@ -44,6 +44,7 @@ http://blogs.yahoo.co.jp/nadegatayosoyuki/59285865.html
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mc68hc11/mc68hc11.h"
 #include "sound/okim6295.h"
 #include "30test.lh"

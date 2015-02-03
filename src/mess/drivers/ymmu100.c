@@ -113,6 +113,7 @@
 **************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "debugger.h"
 #include "cpu/h8/h8s2655.h"
 #include "video/hd44780.h"

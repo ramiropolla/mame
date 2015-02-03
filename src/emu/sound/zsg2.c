@@ -58,6 +58,7 @@ TODO:
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "zsg2.h"
 
 

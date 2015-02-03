@@ -24,6 +24,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "machine/6840ptm.h"
 #include "video/tms34061.h"

@@ -2,6 +2,7 @@
 
 /* updated by Hans Andersson, dec 2005     */
 #include "emu.h"
+#include "sound.h"
 #include "video/resnet.h"
 #include "includes/grchamp.h"
 

@@ -126,6 +126,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/atarisy2.h"
 #include "sound/tms5220.h"
 #include "sound/2151intf.h"

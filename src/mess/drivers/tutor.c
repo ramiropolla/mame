@@ -167,6 +167,7 @@ A=AMA, P=PRO, these keys don't exist, and so the games cannot be played.
 *********************************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms9900/tms9995.h"
 #include "sound/wave.h"
 #include "video/tms9928a.h"

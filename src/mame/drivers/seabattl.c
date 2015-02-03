@@ -30,6 +30,7 @@ the sound board should be fully discrete.
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/s2650/s2650.h"
 #include "machine/s2636.h"
 #include "video/dm9368.h"

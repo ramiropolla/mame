@@ -16,6 +16,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i8085/i8085.h"
 #include "includes/pk8000.h"
 #include "machine/i8255.h"

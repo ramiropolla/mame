@@ -10,6 +10,8 @@
 ****************************************************************************/
 
 
+#include "emu.h"
+#include "sound.h"
 #include "bus/centronics/ctronics.h"
 #include "bus/rs232/rs232.h"
 #include "cpu/m6502/m65c02.h"

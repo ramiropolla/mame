@@ -61,6 +61,7 @@ Mephisto 4 Turbo Kit 18mhz - (mm4tk)
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m65c02.h"
 #include "sound/beep.h"
 //#include "mephisto.lh"

@@ -77,6 +77,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/portfoli.h"
 #include "bus/rs232/rs232.h"
 #include "rendlay.h"

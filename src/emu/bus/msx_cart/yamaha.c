@@ -8,6 +8,7 @@ TODO:
 **************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "yamaha.h"
 #include "bus/midi/midi.h"
 

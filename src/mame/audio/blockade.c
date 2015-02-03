@@ -1,5 +1,6 @@
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/blockade.h"
 #include "sound/discrete.h"
 #include "sound/samples.h"

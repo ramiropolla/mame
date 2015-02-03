@@ -60,6 +60,7 @@
 ******************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms9900/tms9980a.h"
 #include "machine/tms9901.h"
 #include "machine/tms9902.h"

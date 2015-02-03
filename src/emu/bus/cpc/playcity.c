@@ -8,6 +8,8 @@
    IRQs aren't working currently, the Z80CTC core requires the daisy chain setup to acknowledge IRQs properly, and that can't be used in a slot device currently.
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "playcity.h"
 #include "includes/amstrad.h"
 

@@ -9,6 +9,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/orion.h"
 #include "imagedev/cassette.h"
 #include "formats/smx_dsk.h"

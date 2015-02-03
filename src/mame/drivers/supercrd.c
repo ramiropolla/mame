@@ -162,6 +162,7 @@
 #define MASTER_CLOCK    XTAL_16MHz
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/i8255.h"
 #include "video/mc6845.h"

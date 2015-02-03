@@ -7,6 +7,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i4004/i4004.h"
 #include "sound/dac.h"
 #include "4004clk.lh"

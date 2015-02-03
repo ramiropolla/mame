@@ -250,6 +250,7 @@ in MCU code). Look for a 16-pin chip at U6 labeled "ECHO-3 SN".
 ***********************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "tms5220.h"
 
 static INT16 clip_analog(INT16 cliptemp);

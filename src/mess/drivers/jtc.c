@@ -7,6 +7,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z8/z8.h"
 #include "imagedev/cassette.h"
 #include "bus/centronics/ctronics.h"

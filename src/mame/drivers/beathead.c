@@ -100,6 +100,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/beathead.h"
 #include "machine/nvram.h"
 

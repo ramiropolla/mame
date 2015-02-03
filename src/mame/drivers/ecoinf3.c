@@ -11,6 +11,7 @@
 // 2 of the sets contain program scrambled roms (where the last 0x2000 bytes match between games) why, badly dumped?
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z180/z180.h"
 #include "machine/i8255.h"
 #include "ecoinf3.lh"

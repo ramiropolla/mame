@@ -10,6 +10,7 @@
 **********************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/e132xs/e132xs.h"
 #include "machine/eepromser.h"
 

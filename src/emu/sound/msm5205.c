@@ -20,6 +20,7 @@
  */
 
 #include "emu.h"
+#include "sound.h"
 #include "msm5205.h"
 
 /*

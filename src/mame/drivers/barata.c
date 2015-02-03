@@ -37,6 +37,7 @@
 #define CPU_CLOCK       (XTAL_6MHz)         /* main cpu clock */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mcs51/mcs51.h"
 #include "sound/dac.h"
 #include "barata.lh"

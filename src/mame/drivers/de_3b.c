@@ -7,6 +7,8 @@
 #include "machine/decopincpu.h"
 #include "video/decodmd3.h"
 #include "audio/decobsmt.h"
+#include "emu.h"
+#include "sound.h"
 #include "machine/genpin.h"
 #include "machine/nvram.h"
 

@@ -76,6 +76,7 @@ I/O read/write
 /* 26.February 2012 Tsuyoshi Hasegawa fixed palette intensity */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/sn76496.h"
 #include "machine/segacrpt.h"

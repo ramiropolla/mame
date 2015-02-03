@@ -7,6 +7,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "audio/midway.h"
 #include "includes/mcr.h"
 #include "includes/mcr68.h"

@@ -18,6 +18,7 @@ Todo:
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "render.h"
 #include "machine/ldv1000.h"

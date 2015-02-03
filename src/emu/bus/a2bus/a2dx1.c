@@ -8,6 +8,8 @@
 
 *********************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "a2dx1.h"
 #include "includes/apple2.h"
 #include "sound/dac.h"

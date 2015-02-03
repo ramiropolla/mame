@@ -17,6 +17,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/z80pio.h"
 #include "imagedev/cassette.h"

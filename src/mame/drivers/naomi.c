@@ -1489,6 +1489,7 @@ Sushi Bar
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/arm7/arm7.h"
 #include "cpu/z80/z80.h"
 #include "machine/x76f100.h"

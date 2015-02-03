@@ -13,6 +13,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mcs48/mcs48.h"
 #include "includes/tnzs.h"
 

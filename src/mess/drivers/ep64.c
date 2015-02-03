@@ -152,6 +152,8 @@ Notes: (All IC's shown)
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/ep64.h"
 
 

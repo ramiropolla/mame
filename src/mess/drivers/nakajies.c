@@ -272,6 +272,7 @@ disabled). Perhaps power on/off related??
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/nec/nec.h"
 #include "machine/rp5c01.h"
 #include "sound/speaker.h"

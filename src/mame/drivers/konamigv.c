@@ -120,6 +120,7 @@ Notes:
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cdrom.h"
 #include "cpu/psx/psx.h"
 #include "video/psx.h"

@@ -5,6 +5,7 @@ Atari Triple Hunt video emulation
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/triplhnt.h"
 
 

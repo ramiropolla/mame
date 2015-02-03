@@ -58,6 +58,7 @@ Notes/ToDo:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "video/ppu2c0x.h"
 #include "cpu/m6502/n2a03.h"
 #include "sound/nes_apu.h"

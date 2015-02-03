@@ -33,6 +33,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "k005289.h"
 
 // is this an actual hardware limit? or just an arbitrary divider

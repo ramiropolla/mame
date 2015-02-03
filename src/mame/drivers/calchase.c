@@ -128,6 +128,7 @@ something wrong in the disk geometry reported by calchase.chd (20,255,63) since 
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i386/i386.h"
 #include "machine/lpci.h"
 #include "machine/pckeybrd.h"

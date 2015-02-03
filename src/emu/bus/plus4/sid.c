@@ -20,6 +20,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "sid.h"
 
 

@@ -1,5 +1,6 @@
 
 #include "emu.h"
+#include "sound.h"
 #include "cartridge.h"
 #include "arc.h"
 #include "ascii.h"

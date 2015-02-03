@@ -27,6 +27,7 @@ ToDo:
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/m6805/m6805.h"
 #include "machine/i8251.h"

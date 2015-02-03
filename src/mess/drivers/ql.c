@@ -73,6 +73,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/ql.h"
 
 

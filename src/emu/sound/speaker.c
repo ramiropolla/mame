@@ -71,6 +71,7 @@
  */
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/speaker.h"
 
 static const INT16 default_levels[2] = {0, 32767};

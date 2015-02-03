@@ -12,6 +12,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/sp0250.h"
 #include "segasnd.h"
 

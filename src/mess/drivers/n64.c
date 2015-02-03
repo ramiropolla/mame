@@ -10,6 +10,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/rsp/rsp.h"
 #include "cpu/mips/mips3.h"
 #include "sound/dmadac.h"

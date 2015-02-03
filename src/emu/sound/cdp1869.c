@@ -20,6 +20,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cdp1869.h"
 
 

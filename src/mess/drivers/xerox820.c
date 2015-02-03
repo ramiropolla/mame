@@ -38,6 +38,8 @@
 */
 
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/xerox820.h"
 
 /* Read/Write Handlers */

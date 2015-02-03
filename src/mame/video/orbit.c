@@ -5,6 +5,7 @@ Atari Orbit video emulation
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/orbit.h"
 
 WRITE8_MEMBER(orbit_state::orbit_playfield_w)

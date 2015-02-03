@@ -8,6 +8,7 @@ driver by Nicola Salmoria
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "includes/dogfgt.h"
 #include "sound/ay8910.h"

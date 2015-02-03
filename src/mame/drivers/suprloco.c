@@ -20,6 +20,7 @@ Sega PCB 834-5137
 ******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/segacrpt.h"
 #include "sound/sn76496.h"

@@ -7,6 +7,7 @@
 *************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/turbo.h"
 #include "sound/samples.h"
 

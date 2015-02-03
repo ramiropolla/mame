@@ -47,6 +47,7 @@ Note that left-most digit is not wired up, and therefore will always be blank.
 ******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "machine/ins8154.h"
 #include "machine/74145.h"

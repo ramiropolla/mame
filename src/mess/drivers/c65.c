@@ -19,6 +19,7 @@ Note:
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m4510.h"
 
 #define MAIN_CLOCK XTAL_3_5MHz

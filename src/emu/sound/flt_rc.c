@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "sound.h"
 #include "flt_rc.h"
 
 

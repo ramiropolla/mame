@@ -5,6 +5,7 @@ Atari Sprint 4 video emulation
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "audio/sprint4.h"
 #include "includes/sprint4.h"
 

@@ -250,3 +250,5 @@ private:
 
 
 #endif  /* __SOUND_H__ */
+
+#include "devspeaker.h"

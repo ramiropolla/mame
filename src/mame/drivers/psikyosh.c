@@ -272,6 +272,7 @@ Notes:
 */
 
 #include "emu.h"
+#include "sound.h"
 
 #include "cpu/sh2/sh2.h"
 #include "machine/eepromser.h"

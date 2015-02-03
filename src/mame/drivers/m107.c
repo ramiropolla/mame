@@ -24,6 +24,7 @@ confirmed for m107 games as well.
 *******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/nec/nec.h"
 #include "cpu/nec/v25.h"
 #include "includes/m107.h"

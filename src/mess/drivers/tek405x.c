@@ -25,6 +25,8 @@
 */
 
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/tek405x.h"
 
 

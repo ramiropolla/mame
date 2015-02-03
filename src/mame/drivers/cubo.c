@@ -307,6 +307,7 @@ routines :
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/amiga.h"
 #include "imagedev/chd_cd.h"
 #include "machine/microtch.h"

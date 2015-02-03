@@ -13,6 +13,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/pc9801_86.h"
 #include "machine/pic8259.h"
 #include "sound/2608intf.h"

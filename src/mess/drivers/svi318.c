@@ -10,6 +10,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/svi318.h"
 #include "imagedev/flopdrv.h"
 #include "formats/svi_dsk.h"

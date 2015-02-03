@@ -116,6 +116,7 @@ How does the Super Famicom Box operates
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z180/z180.h"
 #include "machine/s3520cf.h"
 #include "video/mb90082.h"

@@ -55,6 +55,8 @@ Notes:
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "abc99.h"
 
 

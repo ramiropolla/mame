@@ -516,6 +516,8 @@ PCB Layouts missing
 */
 
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/msx.h"
 #include "formats/dsk_dsk.h"
 #include "formats/dmk_dsk.h"

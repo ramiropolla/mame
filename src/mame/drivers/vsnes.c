@@ -138,6 +138,7 @@ Changes:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/n2a03.h"
 #include "cpu/z80/z80.h"
 #include "sound/sn76496.h"

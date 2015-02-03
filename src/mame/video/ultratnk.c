@@ -5,6 +5,7 @@ Atari Ultra Tank video emulation
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/ultratnk.h"
 #include "audio/sprint4.h"
 

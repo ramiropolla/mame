@@ -81,6 +81,7 @@ TODO :  This is a partially working driver.  Most of the memory maps for
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "rendlay.h"
 #include "cpu/m68000/m68000.h"
 #include "cpu/i860/i860.h"

@@ -113,6 +113,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "dinetwork.h"
 #include "machine/mc68901.h"
 #include "machine/upd765.h"

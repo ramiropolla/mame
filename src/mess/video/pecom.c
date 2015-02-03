@@ -7,6 +7,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/cdp1869.h"
 #include "sound/wave.h"
 #include "cpu/cosmac/cosmac.h"

@@ -177,6 +177,7 @@ NOTE:  The Door Open cycling is currently not fully understood. Non Plus program
 ***********************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/ay8910.h"
 #include "machine/nvram.h"
 #include "cpu/mcs51/mcs51.h"

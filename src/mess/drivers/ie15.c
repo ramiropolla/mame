@@ -11,6 +11,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 
 #include "bus/rs232/rs232.h"
 #include "cpu/ie15/ie15.h"

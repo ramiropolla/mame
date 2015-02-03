@@ -52,6 +52,8 @@ data of next byte, and so on.
 
 ****************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/c80.h"
 #include "sound/wave.h"
 #include "c80.lh"

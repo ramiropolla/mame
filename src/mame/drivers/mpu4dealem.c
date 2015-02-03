@@ -12,6 +12,7 @@ the Deal 'Em board design, rather than the one they ultimately used, suggesting 
 
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/mpu4.h"
 #include "video/resnet.h"
 #include "video/mc6845.h"

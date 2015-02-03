@@ -17,6 +17,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "ldv1000.h"
 #include "machine/i8255.h"
 #include "machine/z80ctc.h"

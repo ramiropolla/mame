@@ -17,6 +17,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/advision.h"
 #include "cpu/mcs48/mcs48.h"
 #include "cpu/cop400/cop400.h"

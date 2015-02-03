@@ -34,6 +34,7 @@ backup of playfield rom and picture/description of its board
 */
 
 #include "emu.h"
+#include "sound.h"
 
 #include "includes/ssystem3.h"
 #include "machine/6522via.h"

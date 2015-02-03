@@ -97,6 +97,7 @@ Address bus A0-A11 is Y0-Y11
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/bankdev.h"
 #include "machine/ram.h"
 #include "machine/kb3600.h"

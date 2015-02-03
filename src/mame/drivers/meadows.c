@@ -116,6 +116,8 @@
 
 ***************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/meadows.h"
 
 #include "deadeye.lh"

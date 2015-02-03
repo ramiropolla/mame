@@ -28,6 +28,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms9900/tms9995.h"
 #include "sound/sn76496.h"
 #include "machine/i8255.h"

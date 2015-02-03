@@ -70,6 +70,7 @@ NOTE: Trivia Question rom names are the internal names used. IE: read from the f
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/i8255.h"
 #include "machine/ticket.h"

@@ -48,6 +48,8 @@ Z - more scan lines per row (cursor is bigger)
 
 ****************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "bus/rs232/rs232.h"
 #include "cpu/m6809/m6809.h"
 #include "machine/6821pia.h"

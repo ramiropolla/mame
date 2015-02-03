@@ -27,6 +27,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "ymf271.h"
 
 #define STD_CLOCK       (16934400)

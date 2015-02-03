@@ -13,6 +13,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/lc8670/lc8670.h"
 #include "imagedev/snapquik.h"
 #include "machine/intelfsh.h"

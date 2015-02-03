@@ -137,6 +137,7 @@ Notes:
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/mcs51/mcs51.h"
 #include "sound/2203intf.h"

@@ -39,6 +39,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "imagedev/cassette.h"
 #include "imagedev/printer.h"
 #include "sound/wave.h"      /* for K7 sound*/

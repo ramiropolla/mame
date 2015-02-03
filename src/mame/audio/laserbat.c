@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "sound.h"
 #include "sound/tms3615.h"
 #include "includes/laserbat.h"
 

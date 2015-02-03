@@ -31,6 +31,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "ymz280b.h"
 
 

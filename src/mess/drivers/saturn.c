@@ -36,6 +36,7 @@ test1f diagnostic hacks:
 ****************************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "machine/eepromser.h"
 #include "cpu/sh2/sh2.h"

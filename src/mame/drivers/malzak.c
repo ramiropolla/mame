@@ -63,6 +63,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/s2650/s2650.h"
 #include "sound/sn76477.h"
 #include "video/saa5050.h"

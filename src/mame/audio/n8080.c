@@ -5,6 +5,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/n8080.h"
 
 static const double ATTACK_RATE = 10e-6 * 500;

@@ -10,6 +10,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 
 #include "includes/bfm_sc5.h"
 

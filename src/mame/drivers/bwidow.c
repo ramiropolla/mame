@@ -217,6 +217,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "video/vector.h"
 #include "video/avgdvg.h"

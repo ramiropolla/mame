@@ -145,6 +145,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/jaguar.h"
 #include "cpu/jaguar/jaguar.h"
 

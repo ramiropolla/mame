@@ -5,6 +5,7 @@
 ******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/svision.h"
 
 #include "svision.lh"

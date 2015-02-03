@@ -281,6 +281,7 @@ Timings:
 *******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i8085/i8085.h"
 #include "sound/speaker.h"
 #include "sound/wave.h"

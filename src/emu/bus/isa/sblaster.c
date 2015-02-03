@@ -9,6 +9,8 @@
 
 ***************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "sblaster.h"
 #include "sound/speaker.h"
 #include "sound/262intf.h"

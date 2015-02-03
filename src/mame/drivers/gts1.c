@@ -66,6 +66,8 @@ ToDo:
 *****************************************************************************************************/
 
 
+#include "emu.h"
+#include "sound.h"
 #include "machine/genpin.h"
 #include "machine/ra17xx.h"
 #include "machine/r10696.h"

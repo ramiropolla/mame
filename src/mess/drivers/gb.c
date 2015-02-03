@@ -421,6 +421,7 @@ space. This mapper uses 32KB sized banks.
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "rendlay.h"
 #include "includes/gb.h"
 #include "bus/gameboy/rom.h"

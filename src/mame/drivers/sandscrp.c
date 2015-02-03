@@ -71,6 +71,7 @@ Is there another alt program rom set labeled 9 & 10?
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/2203intf.h"

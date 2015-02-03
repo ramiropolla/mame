@@ -21,6 +21,7 @@
 *****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "videowrp.h"
 #include "sound/sn76496.h"
 

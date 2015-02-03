@@ -57,6 +57,7 @@ the main program is 9th October 1990.
 ******************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i86/i86.h"
 #include "machine/pit8253.h"
 #include "machine/i8255.h"

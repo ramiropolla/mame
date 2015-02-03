@@ -184,6 +184,7 @@ Notes:
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/cosmac/cosmac.h"
 #include "sound/beep.h"
 #include "sound/cdp1864.h"

@@ -10,6 +10,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "okim6258.h"
 
 #define COMMAND_STOP        (1 << 0)

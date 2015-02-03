@@ -297,6 +297,7 @@ uPC1352C @ N3
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i8085/i8085.h"
 #include "sound/ay8910.h"
 #include "video/i8275.h"

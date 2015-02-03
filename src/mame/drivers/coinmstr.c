@@ -130,6 +130,7 @@
 #define SND_CLOCK      (MASTER_CLOCK/8)
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/6821pia.h"
 #include "video/mc6845.h"

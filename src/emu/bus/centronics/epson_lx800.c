@@ -17,6 +17,8 @@
 
 **********************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "epson_lx800.h"
 #include "lx800.lh"
 

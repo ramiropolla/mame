@@ -22,6 +22,7 @@ Galaksija driver by Krzysztof Strzecha and Miodrag Milanovic
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/wave.h"
 #include "includes/galaxy.h"

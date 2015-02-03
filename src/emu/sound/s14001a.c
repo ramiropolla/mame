@@ -261,6 +261,7 @@ and off as it normally does during speech). Once START has gone low-high-low, th
 #undef ACCURATE_SQUEAL
 
 #include "emu.h"
+#include "sound.h"
 #include "s14001a.h"
 
 

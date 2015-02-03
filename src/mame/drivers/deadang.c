@@ -37,6 +37,7 @@ Dip locations and factory settings verified with US manual
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/nec/nec.h"
 #include "sound/2203intf.h"
 #include "sound/msm5205.h"

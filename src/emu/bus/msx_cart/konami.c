@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "sound.h"
 #include "konami.h"
 
 const device_type MSX_CART_KONAMI = &device_creator<msx_cart_konami>;

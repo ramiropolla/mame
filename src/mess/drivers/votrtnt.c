@@ -30,6 +30,8 @@
 ******************************************************************************/
 
 /* Core includes */
+#include "emu.h"
+#include "sound.h"
 #include "bus/rs232/rs232.h"
 #include "cpu/m6800/m6800.h"
 #include "machine/6850acia.h"

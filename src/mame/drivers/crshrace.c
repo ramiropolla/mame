@@ -127,6 +127,7 @@ Dip locations verified with Service Mode.
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/2610intf.h"
 

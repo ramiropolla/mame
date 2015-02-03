@@ -42,6 +42,7 @@ More notes about Funny Strip protection issus at the boottom of source file (DRI
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/2203intf.h"

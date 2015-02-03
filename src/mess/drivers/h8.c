@@ -47,6 +47,7 @@ TODO:
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i8085/i8085.h"
 #include "machine/i8251.h"
 #include "machine/clock.h"

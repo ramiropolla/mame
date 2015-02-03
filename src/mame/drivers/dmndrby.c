@@ -52,6 +52,7 @@ DD10 DD14  DD18     H5            DD21
 *******************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/ay8910.h"
 #include "machine/nvram.h"

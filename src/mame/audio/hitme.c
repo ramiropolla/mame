@@ -6,6 +6,7 @@
 
 *************************************************************************/
 #include "emu.h"
+#include "sound.h"
 #include "includes/hitme.h"
 #include "sound/discrete.h"
 

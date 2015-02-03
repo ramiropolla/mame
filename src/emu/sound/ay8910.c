@@ -228,6 +228,7 @@ has twice the steps, happening twice as fast.
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "ay8910.h"
 
 /*************************************

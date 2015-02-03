@@ -73,6 +73,7 @@
 ******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/clock.h"
 #include "machine/6850acia.h"
 #include "machine/meters.h"

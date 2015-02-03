@@ -345,6 +345,7 @@ some other components. It will be documented at a later date.
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/powerpc/ppc.h"
 #include "machine/lpci.h"
 #include "machine/ataintf.h"

@@ -69,6 +69,8 @@
  ******************************************************************************/
 
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/avigo.h"
 #include "avigo.lh"
 

@@ -65,6 +65,7 @@ C004      76489 #4 trigger
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/m6809/m6809.h"
 #include "sound/sn76496.h"

@@ -75,6 +75,7 @@
 #define TMS_CLOCK       VDP_CLOCK / 24
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mcs51/mcs51.h"
 #include "video/tms9928a.h"
 #include "sound/ay8910.h"

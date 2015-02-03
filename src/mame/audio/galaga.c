@@ -4,6 +4,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "namco52.h"
 #include "namco54.h"
 #include "includes/galaga.h"

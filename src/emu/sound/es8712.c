@@ -13,6 +13,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "es8712.h"
 
 #define MAX_SAMPLE_CHUNK    10000

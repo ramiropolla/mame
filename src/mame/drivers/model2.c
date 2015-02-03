@@ -112,6 +112,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/eepromser.h"
 #include "machine/nvram.h"
 #include "video/segaic24.h"

@@ -1,5 +1,6 @@
 #include <math.h>
 #include "emu.h"
+#include "sound.h"
 #include "includes/vectrex.h"
 #include "cpu/m6809/m6809.h"
 

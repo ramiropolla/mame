@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "sound.h"
 #include "coreutil.h"
 #include "includes/genpc.h"
 #include "machine/nvram.h"

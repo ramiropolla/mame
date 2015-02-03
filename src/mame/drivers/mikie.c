@@ -37,6 +37,7 @@ Stephh's notes (based on the games M6809 code and some tests) :
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/m6809/m6809.h"
 #include "sound/sn76496.h"

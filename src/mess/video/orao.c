@@ -8,6 +8,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/orao.h"
 
 void orao_state::video_start()

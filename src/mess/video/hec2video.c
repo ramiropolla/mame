@@ -32,6 +32,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 
 #include "includes/hec2hrp.h"
 

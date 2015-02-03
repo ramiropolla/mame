@@ -1,5 +1,7 @@
 /* ST0016 - CPU (z80) + Sound + Video */
 
+#include "emu.h"
+#include "sound.h"
 #include "st0016.h"
 
 const device_type ST0016_CPU = &device_creator<st0016_cpu_device>;

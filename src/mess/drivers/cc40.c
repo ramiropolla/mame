@@ -73,6 +73,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms7000/tms7000.h"
 #include "video/hd44780.h"
 #include "sound/dac.h"

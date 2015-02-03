@@ -53,6 +53,7 @@ L056-6    9A          "      "      VLI-8-4 7A         "
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms9900/tms9995.h"
 #include "cpu/tms9900/tms9980a.h"
 #include "sound/ay8910.h"

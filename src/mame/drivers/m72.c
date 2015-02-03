@@ -82,6 +82,7 @@ other supported games as well.
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/nec/nec.h"
 #include "cpu/nec/v25.h"

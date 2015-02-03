@@ -58,6 +58,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/suna16.h"
 
 WRITE16_MEMBER(suna16_state::suna16_flipscreen_w)

@@ -30,6 +30,7 @@ To Do:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/3812intf.h"
 #include "sound/msm5205.h"

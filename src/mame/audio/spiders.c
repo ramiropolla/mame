@@ -7,6 +7,7 @@ To Do: add filters
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/discrete.h"
 #include "machine/6821pia.h"
 #include "includes/spiders.h"

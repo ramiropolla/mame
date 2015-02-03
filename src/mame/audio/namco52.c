@@ -48,6 +48,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "namco52.h"
 
 TIMER_CALLBACK_MEMBER( namco_52xx_device::latch_callback )

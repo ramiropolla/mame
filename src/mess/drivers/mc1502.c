@@ -7,6 +7,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/mc1502.h"
 #include "bus/rs232/rs232.h"
 

@@ -22,6 +22,8 @@ Paste facility was tested but doesn't work, so all code remnants removed.
 
 ****************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/ut88.h"
 #include "formats/rk_cas.h"
 #include "ut88mini.lh"

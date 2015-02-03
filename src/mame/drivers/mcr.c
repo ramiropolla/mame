@@ -284,6 +284,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "audio/midway.h"
 #include "sound/samples.h"
 #include "machine/nvram.h"

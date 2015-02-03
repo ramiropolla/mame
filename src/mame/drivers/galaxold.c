@@ -363,6 +363,7 @@ Stephh's notes (based on the games Z80 code and some tests) for other games :
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/s2650/s2650.h"
 #include "sound/ay8910.h"

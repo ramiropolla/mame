@@ -107,8 +107,9 @@ class device_network_interface;
 #include "video.h"
 
 // sound-related
-#include "sound.h"
-#include "speaker.h"
+class sound_manager;
+class sound_stream;
+class speaker_device;
 
 // generic helpers
 #include "devcb.h"

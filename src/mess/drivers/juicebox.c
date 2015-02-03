@@ -7,6 +7,7 @@
 *******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/arm7/arm7.h"
 #include "machine/s3c44b0.h"
 #include "machine/smartmed.h"

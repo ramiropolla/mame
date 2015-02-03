@@ -51,6 +51,7 @@ TODO:
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms7000/tms7000.h"
 #include "video/tms3556.h"
 #include "sound/tms5220.h"

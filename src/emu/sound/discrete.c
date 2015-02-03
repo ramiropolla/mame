@@ -34,6 +34,7 @@
  ************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "wavwrite.h"
 #include "discrete.h"
 

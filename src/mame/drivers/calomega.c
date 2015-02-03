@@ -644,6 +644,7 @@
 #define SND_CLOCK   (MASTER_CLOCK/8)
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "cpu/m6502/m65c02.h"
 #include "video/mc6845.h"

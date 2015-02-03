@@ -11,6 +11,7 @@ TODO:
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/flower.h"
 
 #define FLOWER_VERBOSE      0       // show register writes

@@ -205,6 +205,8 @@
 
 ************************************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/x1.h"
 
 #define MAIN_CLOCK XTAL_16MHz

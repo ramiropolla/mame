@@ -67,6 +67,7 @@ Merit Riviera Notes - There are several known versions:
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/i8255.h"
 #include "sound/ay8910.h"

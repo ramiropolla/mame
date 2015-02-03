@@ -221,6 +221,7 @@
 #define SND_CLOCK   XTAL_16_9344MHz
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/h8/h83006.h"
 #include "sound/ymz280b.h"
 #include "machine/nvram.h"

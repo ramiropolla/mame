@@ -18,6 +18,7 @@ D0  explosion enable        gates a noise generator
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/bzone.h"
 
 #include "sound/discrete.h"

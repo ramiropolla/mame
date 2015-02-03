@@ -135,6 +135,8 @@ There don't seem to be any JV1 boot disks for Model III/4.
 
 ***************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/trs80.h"
 
 

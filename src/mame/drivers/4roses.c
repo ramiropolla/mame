@@ -173,6 +173,7 @@
 #define MASTER_CLOCK    XTAL_16MHz
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m65c02.h"
 #include "video/mc6845.h"
 #include "sound/ay8910.h"

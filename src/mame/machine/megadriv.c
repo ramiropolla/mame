@@ -22,6 +22,7 @@ Known Non-Issues (confirmed on Real Genesis)
 
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/megadriv.h"
 
 

@@ -9,6 +9,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/se3208/se3208.h"
 #include "video/vrender0.h"
 #include "machine/ds1302.h"

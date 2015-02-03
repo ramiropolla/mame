@@ -9,6 +9,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "dac.h"
 
 
@@ -32,6 +33,12 @@ dac_device::dac_device(const machine_config &mconfig, const char *tag, device_t 
 {
 }
 
+
+void dac_device::write(INT16 data)
+{
+	m_stream->update();
+	m_output = data;
+}
 
 //-------------------------------------------------
 //  write_unsigned8 - write an 8-bit value,

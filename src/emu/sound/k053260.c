@@ -51,6 +51,7 @@
 *********************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "k053260.h"
 
 #define LOG 0

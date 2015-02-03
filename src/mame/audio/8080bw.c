@@ -1,6 +1,7 @@
 /* 8080bw.c *******************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/samples.h"
 #include "sound/discrete.h"
 #include "includes/8080bw.h"

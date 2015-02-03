@@ -34,6 +34,7 @@ HuC6280A (Hudson)
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/i8085/i8085.h"
 #include "machine/i8155.h"

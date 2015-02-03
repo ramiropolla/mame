@@ -29,6 +29,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "machine/bankdev.h"
 #include "machine/ram.h"

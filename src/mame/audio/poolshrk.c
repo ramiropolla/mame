@@ -4,6 +4,7 @@
 
 *************************************************************************/
 #include "emu.h"
+#include "sound.h"
 #include "includes/poolshrk.h"
 #include "sound/discrete.h"
 

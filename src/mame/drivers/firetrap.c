@@ -167,6 +167,7 @@ Stephh's notes (based on the games Z80 code and some tests) :
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/m6502/m6502.h"
 #include "sound/3526intf.h"

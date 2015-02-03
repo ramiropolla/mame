@@ -83,6 +83,7 @@ There are some unmapped writes past the end of text ram too
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/pic16c5x/pic16c5x.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/okim6295.h"

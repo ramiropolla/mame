@@ -15,6 +15,7 @@
 ************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/bankdev.h"
 #include "machine/ram.h"
 #include "sound/speaker.h"

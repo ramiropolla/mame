@@ -10,6 +10,8 @@
 #endif /* i386 */
 
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/at.h"
 #include "bus/pc_kbd/keyboards.h"
 

@@ -6,6 +6,8 @@
 
 ***************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "sound/esqpump.h"
 
 const device_type ESQ_5505_5510_PUMP = &device_creator<esq_5505_5510_pump>;

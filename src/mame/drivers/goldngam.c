@@ -233,6 +233,7 @@
 #define SECONDARY_CLOCK XTAL_6MHz   /* from GFX Board */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/ay8910.h"
 

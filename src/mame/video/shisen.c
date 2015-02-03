@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "sound.h"
 #include "includes/shisen.h"
 
 WRITE8_MEMBER(shisen_state::sichuan2_videoram_w)

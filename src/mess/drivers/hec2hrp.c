@@ -70,6 +70,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 
 #include "imagedev/cassette.h"
 #include "formats/hect_tap.h"

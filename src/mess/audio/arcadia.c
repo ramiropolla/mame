@@ -10,6 +10,8 @@
 ***************************************************************************/
 
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/arcadia.h"
 
 //known UVI audio clocks

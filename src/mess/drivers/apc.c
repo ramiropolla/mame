@@ -53,6 +53,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i86/i86.h"
 #include "audio/upd1771.h"
 #include "machine/pic8259.h"

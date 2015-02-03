@@ -14,6 +14,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i386/i386.h"
 #include "cpu/tms32031/tms32031.h"
 #include "machine/53c7xx.h"

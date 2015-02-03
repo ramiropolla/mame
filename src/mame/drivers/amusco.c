@@ -71,6 +71,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/i86/i86.h"
 #include "video/mc6845.h"
 #include "machine/i8255.h"

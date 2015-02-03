@@ -7,6 +7,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/dac.h"
 #include "includes/slapstic.h"
 #include "includes/harddriv.h"

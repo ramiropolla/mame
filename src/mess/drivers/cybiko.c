@@ -16,6 +16,8 @@ ToDo:
 **************************************************************************************/
 
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/cybiko.h"
 #include "rendlay.h"
 

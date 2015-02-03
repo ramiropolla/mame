@@ -24,6 +24,7 @@ PCB has a single OSC at 24MHz
 
 *******************************************************************************************/
 #include "emu.h"
+#include "sound.h"
 #include "cpu/arm/arm.h"
 #include "sound/dac.h"
 #include "includes/archimds.h"

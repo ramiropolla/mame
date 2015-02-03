@@ -4,6 +4,8 @@
 
 ***************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/gottlieb.h"
 #include "video/resnet.h"
 

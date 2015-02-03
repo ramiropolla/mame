@@ -168,6 +168,7 @@ there are 9 PALS on the pcb (not dumped)
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "machine/nvram.h"
 #include "sound/ymz280b.h"

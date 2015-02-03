@@ -5,6 +5,7 @@
 **************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/tms34010/tms34010.h"
 #include "includes/midyunit.h"
 

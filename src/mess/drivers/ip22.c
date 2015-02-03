@@ -39,6 +39,7 @@
 \*********************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mips/mips3.h"
 #include "sound/cdda.h"
 #include "machine/sgi.h"

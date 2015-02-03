@@ -189,6 +189,7 @@ Notes:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6809/m6809.h"
 #include "cpu/m6800/m6800.h"
 #include "includes/pacland.h"

@@ -13,6 +13,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "sidvoice.h"
 #include "sidenvel.h"
 #include "sid.h"

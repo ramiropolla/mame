@@ -36,6 +36,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/68340.h"
 #include "sound/es5506.h"
 #include "cpu/es5510/es5510.h"

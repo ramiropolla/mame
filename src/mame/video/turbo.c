@@ -5,6 +5,7 @@
 *************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/turbo.h"
 #include "video/resnet.h"
 

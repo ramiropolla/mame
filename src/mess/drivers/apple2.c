@@ -39,6 +39,7 @@ II Plus: RAM options reduced to 16/32/48 KB.
 ************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/bankdev.h"
 #include "machine/ram.h"
 #include "machine/kb3600.h"

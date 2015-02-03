@@ -4,7 +4,6 @@
 #define __ATOM__
 
 
-#include "emu.h"
 #include "cpu/m6502/m6502.h"
 #include "imagedev/cassette.h"
 #include "imagedev/flopdrv.h"

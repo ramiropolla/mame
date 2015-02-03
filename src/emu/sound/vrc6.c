@@ -12,6 +12,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "vrc6.h"
 
 #define DISABLE_VRC6_SOUND      // not ready yet

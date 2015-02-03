@@ -33,6 +33,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/powerpc/ppc.h"
 #include "sound/ymz280b.h"
 

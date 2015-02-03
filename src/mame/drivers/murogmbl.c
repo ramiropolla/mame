@@ -36,6 +36,7 @@ Dumped: 06/04/2009 f205v
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "sound/dac.h"
 

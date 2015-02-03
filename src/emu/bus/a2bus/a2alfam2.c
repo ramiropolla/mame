@@ -7,6 +7,8 @@
 
 *********************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "a2alfam2.h"
 #include "includes/apple2.h"
 #include "sound/sn76496.h"

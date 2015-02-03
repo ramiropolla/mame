@@ -17,6 +17,8 @@
         http://bitsavers.org/pdf/dec/terminal/vt125/MP01053_VT125_Mar82.pdf
 ****************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "bus/rs232/rs232.h"
 #include "cpu/i8085/i8085.h"
 #include "cpu/z80/z80.h"

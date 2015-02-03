@@ -31,6 +31,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/tmc2000e.h"
 
 /* Read/Write Handlers */

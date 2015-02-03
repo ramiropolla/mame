@@ -28,6 +28,7 @@ YM2151:
 
 ***************************************************************************/
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "includes/mustache.h"
 #include "audio/t5182.h"

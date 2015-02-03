@@ -9,6 +9,8 @@
 
 **********************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "sfx_sound_expander.h"
 
 

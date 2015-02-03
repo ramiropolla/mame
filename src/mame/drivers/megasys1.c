@@ -121,6 +121,7 @@ RAM         RW      0f0000-0f3fff       0e0000-0effff?      <
 #define OKI4_SOUND_CLOCK    XTAL_4MHz
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "cpu/m68000/m68000.h"
 #include "sound/2203intf.h"

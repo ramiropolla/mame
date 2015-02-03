@@ -5,6 +5,7 @@ Namco System 1 Video Hardware
 *******************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/namcos1.h"
 
 

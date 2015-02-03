@@ -81,6 +81,7 @@
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/s2650/s2650.h"
 #include "sound/speaker.h"
 #include "imagedev/cassette.h"

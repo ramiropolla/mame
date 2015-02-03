@@ -9,6 +9,7 @@
 *************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "laserdsc.h"
 #include "avhuff.h"
 #include "vbiparse.h"
@@ -115,6 +116,12 @@ laserdisc_device::~laserdisc_device()
 //**************************************************************************
 //  PUBLIC INTERFACES
 //**************************************************************************
+
+void laserdisc_device::set_audio_squelch(bool squelchleft, bool squelchright)
+{
+	m_stream->update();
+	m_audiosquelch = (squelchleft ? 1 : 0) | (squelchright ? 2 : 0);
+}
 
 //-------------------------------------------------
 //  get_field_code - return raw field information

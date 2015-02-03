@@ -34,6 +34,7 @@ Memo:
 ******************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/tmpz84c011.h"
 #include "cpu/m68000/m68000.h"
 #include "machine/tmp68301.h"

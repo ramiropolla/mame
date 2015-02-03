@@ -41,6 +41,8 @@ ToDO:
 
 *****************************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "machine/genpin.h"
 #include "cpu/i8085/i8085.h"
 #include "cpu/m6800/m6800.h"

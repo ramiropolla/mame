@@ -50,6 +50,7 @@ Due to no input checking, misuse of commands can crash the system.
 ****************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "machine/z80pio.h"
 #include "imagedev/snapquik.h"

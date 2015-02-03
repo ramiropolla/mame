@@ -188,6 +188,7 @@ Notes:
 #define PGMLOGERROR 0
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/pgm.h"
 
 

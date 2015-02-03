@@ -5,6 +5,8 @@
  *  Created on: 4/10/2013
  */
 
+#include "emu.h"
+#include "sound.h"
 #include "wpcsnd.h"
 
 #define LOG_WPCSND (0)

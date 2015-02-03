@@ -49,6 +49,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "includes/atetris.h"
 #include "sound/sn76496.h"

@@ -30,6 +30,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "machine/segaic16.h"
 #include "machine/nvram.h"
 #include "includes/segas18.h"

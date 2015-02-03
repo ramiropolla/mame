@@ -200,6 +200,7 @@ TI-86 ports:
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "imagedev/snapquik.h"
 #include "includes/ti85.h"

@@ -13,6 +13,8 @@
 
 *****************************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "speech8.h"
 #include "sound/wave.h"
 #include "machine/spchrom.h"

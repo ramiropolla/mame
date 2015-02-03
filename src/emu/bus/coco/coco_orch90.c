@@ -11,6 +11,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "coco_orch90.h"
 #include "sound/dac.h"
 

@@ -42,6 +42,8 @@ http://www.stefan-uhlmann.de/cbm/MVM/index.html
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "magic_voice.h"
 
 

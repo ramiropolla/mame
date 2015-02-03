@@ -86,6 +86,7 @@ Bit 5+6  LED 1-8 enable
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "cpu/m6502/m65c02.h"
 #include "cpu/arm/arm.h"

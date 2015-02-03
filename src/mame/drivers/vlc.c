@@ -130,6 +130,7 @@ nevada TYPE2 :  64       45      51       06       32      02        31     31  
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "machine/mc68681.h"
 #include "machine/nvram.h"

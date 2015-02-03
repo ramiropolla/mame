@@ -25,6 +25,7 @@ More information can be found at http://www.seasip.info/AmstradXT/1640tech/index
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/nec/nec.h"
 #include "cpu/i86/i86.h"
 

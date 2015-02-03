@@ -40,6 +40,7 @@ Viking?s Fun Mill
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/arm7/arm7.h"
 #include "cpu/arm7/arm7core.h"
 

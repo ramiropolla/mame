@@ -7,6 +7,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "fm.h"
 #include "2151intf.h"
 #include "ym2151.h"

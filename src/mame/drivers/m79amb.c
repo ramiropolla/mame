@@ -55,6 +55,7 @@ and two large (paddles pretending to be) guns.
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/m79amb.h"
 #include "cpu/i8085/i8085.h"
 

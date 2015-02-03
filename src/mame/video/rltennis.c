@@ -70,6 +70,7 @@ Blitter registers description (reg/bit names selected arbitrary ) :
 
 ****************************************************************************************/
 #include "emu.h"
+#include "sound.h"
 #include "includes/rltennis.h"
 
 enum

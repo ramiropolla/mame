@@ -16,6 +16,7 @@ solarwar
 *************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6502/m6502.h"
 #include "includes/videopin.h"
 #include "videopin.lh"

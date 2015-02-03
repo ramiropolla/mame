@@ -41,6 +41,7 @@
 #define MAIN_CLOCK  XTAL_16MHz
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/h8/h83048.h"
 #include "sound/okim6295.h"
 

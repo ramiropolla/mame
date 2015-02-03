@@ -1231,6 +1231,7 @@ Notes:
 */
 
 #include "emu.h"
+#include "sound.h"
 #include <float.h>
 #include "video/polylgcy.h"
 #include "cpu/mips/mips3.h"

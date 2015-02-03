@@ -6,6 +6,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/genpc.h"
 
 #include "machine/i8255.h"

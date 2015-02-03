@@ -57,6 +57,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "sound/mos6560.h"
 
 

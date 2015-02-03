@@ -283,6 +283,7 @@
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/mcs48/mcs48.h"
 #include "cpu/mcs51/mcs51.h"
 #include "machine/nvram.h"

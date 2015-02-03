@@ -98,6 +98,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/decocrpt.h"
 #include "machine/eepromser.h"
 #include "cpu/arm/arm.h"

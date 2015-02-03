@@ -149,6 +149,8 @@ ROM sockets:  UA3   2K or 4K character
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/pet.h"
 #include "bus/ieee488/c2040.h"
 #include "machine/cbm_snqk.h"

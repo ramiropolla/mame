@@ -17,6 +17,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/eti660.h"
 
 /* Read/Write Handlers */

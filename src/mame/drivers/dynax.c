@@ -73,6 +73,7 @@ TODO:
 *********************************************************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z80/z80.h"
 #include "includes/dynax.h"
 #include "cpu/tlcs90/tlcs90.h"

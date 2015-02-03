@@ -82,6 +82,7 @@ Graphics: CY37256P160-83AC x 2 (Ultra37000 CPLD family - 160 pin TQFP, 256 Macro
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/z180/z180.h"
 #include "machine/eepromser.h"
 #include "sound/dac.h"

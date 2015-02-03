@@ -6,6 +6,8 @@
 
 *********************************************************************/
 
+#include "emu.h"
+#include "sound.h"
 #include "a2sam.h"
 #include "includes/apple2.h"
 #include "sound/dac.h"

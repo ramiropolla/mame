@@ -7,6 +7,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "spu.h"
 #include "spureverb.h"
 

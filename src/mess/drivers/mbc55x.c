@@ -14,6 +14,8 @@ ToDo:
 */
 
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/mbc55x.h"
 
 

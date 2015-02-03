@@ -66,6 +66,8 @@
 */
 
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/kyocera.h"
 
 /* Read/Write Handlers */

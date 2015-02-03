@@ -65,6 +65,8 @@ Notes:
 */
 
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/sg1000.h"
 #include "bus/rs232/rs232.h"
 

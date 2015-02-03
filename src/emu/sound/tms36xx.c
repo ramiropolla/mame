@@ -1,4 +1,5 @@
 #include "emu.h"
+#include "sound.h"
 #include "tms36xx.h"
 
 #define VERBOSE 1

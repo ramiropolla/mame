@@ -4,6 +4,7 @@
 
 *************************************************************************/
 #include "emu.h"
+#include "sound.h"
 #include "sprint4.h"
 #include "sound/discrete.h"
 

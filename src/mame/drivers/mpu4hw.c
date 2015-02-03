@@ -252,6 +252,7 @@ TODO: - Distinguish door switches using manual
       - Strange bug in Andy's Great Escape - Mystery nudge sound effect is not played, mpu4 latches in silence instead (?)
 ***********************************************************************************************************/
 #include "emu.h"
+#include "sound.h"
 
 #include "includes/mpu4.h"
 

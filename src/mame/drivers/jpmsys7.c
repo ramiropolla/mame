@@ -20,6 +20,7 @@ Pluto 8: ColdFire 5475
 
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m68000/m68000.h"
 #include "machine/mcf5206e.h"
 

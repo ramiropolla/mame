@@ -15,6 +15,7 @@
 */
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/bzone.h"
 #include "sound/pokey.h"
 

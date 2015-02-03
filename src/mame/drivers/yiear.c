@@ -95,6 +95,7 @@ Sound: VLM5030 at 7B
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/m6809/m6809.h"
 #include "sound/sn76496.h"
 #include "includes/konamipt.h"

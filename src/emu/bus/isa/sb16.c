@@ -5,6 +5,8 @@
 // The mcu does host communication and control of the dma-dac unit
 // TODO: UART is connected to MIDI port, mixer, adc
 
+#include "emu.h"
+#include "sound.h"
 #include "sb16.h"
 
 const device_type ISA16_SB16 = &device_creator<sb16_lle_device>;

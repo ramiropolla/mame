@@ -1,3 +1,5 @@
+#include "emu.h"
+#include "sound.h"
 #include "includes/osi.h"
 
 /* Palette Initialization */

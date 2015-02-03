@@ -196,6 +196,7 @@ GFX check (these don't explicitly fails):
 
 */
 #include "emu.h"
+#include "sound.h"
 #include "machine/mega32x.h"
 
 

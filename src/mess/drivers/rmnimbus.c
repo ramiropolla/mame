@@ -7,6 +7,8 @@
 
 */
 
+#include "emu.h"
+#include "sound.h"
 #include "includes/rmnimbus.h"
 #include "cpu/mcs51/mcs51.h"
 #include "imagedev/flopdrv.h"

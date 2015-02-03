@@ -7,6 +7,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "includes/galaxia.h"
 
 #define SPRITE_PEN_BASE     (0x10)

@@ -15,6 +15,7 @@
 ***************************************************************************/
 
 #include "emu.h"
+#include "sound.h"
 #include "cpu/s2650/s2650.h"
 #include "includes/quasar.h"
 
