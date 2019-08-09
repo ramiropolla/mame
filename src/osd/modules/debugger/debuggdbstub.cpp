@@ -67,56 +67,66 @@ static const char *const gdb_register_type_str[] = {
 };
 struct gdb_register_map
 {
-	const char *state_name;
-	const char *gdb_name;
-	bool stop_packet;
-	gdb_register_type gdb_type;
+	const char *arch;
+	const char *feature;
+	struct gdb_register_description
+	{
+		const char *state_name;
+		const char *gdb_name;
+		bool stop_packet;
+		gdb_register_type gdb_type;
+	};
+	std::vector<gdb_register_description> registers;
 };
 
 //-------------------------------------------------------------------------
-static const std::vector<gdb_register_map> gdb_register_map_i486 = {
-	// TODO architecture and i386.gnu.gdb.something
-	{ "EAX",     "eax",    false, TYPE_INT },
-	{ "ECX",     "ecx",    false, TYPE_INT },
-	{ "EDX",     "edx",    false, TYPE_INT },
-	{ "EBX",     "ebx",    false, TYPE_INT },
-	{ "ESP",     "esp",    true,  TYPE_DATA_POINTER },
-	{ "EBP",     "ebp",    true,  TYPE_DATA_POINTER },
-	{ "ESI",     "esi",    false, TYPE_INT },
-	{ "EDI",     "edi",    false, TYPE_INT },
-	{ "EIP",     "eip",    true,  TYPE_CODE_POINTER },
-	{ "EFLAGS",  "eflags", false, TYPE_INT }, // TODO TYPE_I386_EFLAGS
-	{ "CS",      "cs",     false, TYPE_INT },
-	{ "SS",      "ss",     false, TYPE_INT },
-	{ "DS",      "ds",     false, TYPE_INT },
-	{ "ES",      "es",     false, TYPE_INT },
-	{ "FS",      "fs",     false, TYPE_INT },
-	{ "GS",      "gs",     false, TYPE_INT },
-	// TODO fix x87 registers!
-	// The x87 registers are just plain wrong for a few reasons:
-	//  - The st* registers use a dummy variable in i386_device, so we
-	//    don't retrieve the real value (also the bitsize is wrong);
-	//  - The seg/off/op registers don't seem to be exported in the
-	//    state.
-	{ "ST0",     "st0",    false, TYPE_I387_EXT },
-	{ "ST1",     "st1",    false, TYPE_I387_EXT },
-	{ "ST2",     "st2",    false, TYPE_I387_EXT },
-	{ "ST3",     "st3",    false, TYPE_I387_EXT },
-	{ "ST4",     "st4",    false, TYPE_I387_EXT },
-	{ "ST5",     "st5",    false, TYPE_I387_EXT },
-	{ "ST6",     "st6",    false, TYPE_I387_EXT },
-	{ "ST7",     "st7",    false, TYPE_I387_EXT },
-	{ "x87_CW",  "fctrl",  false, TYPE_INT },
-	{ "x87_SW",  "fstat",  false, TYPE_INT },
-	{ "x87_TAG", "ftag",   false, TYPE_INT },
-	{ "EAX",     "fiseg",  false, TYPE_INT },
-	{ "EAX",     "fioff",  false, TYPE_INT },
-	{ "EAX",     "foseg",  false, TYPE_INT },
-	{ "EAX",     "fooff",  false, TYPE_INT },
-	{ "EAX",     "fop",    false, TYPE_INT },
+static const gdb_register_map gdb_register_map_i486 =
+{
+	"i386",
+	"org.gnu.gdb.i386.core",
+	{
+		{ "EAX",     "eax",    false, TYPE_INT },
+		{ "ECX",     "ecx",    false, TYPE_INT },
+		{ "EDX",     "edx",    false, TYPE_INT },
+		{ "EBX",     "ebx",    false, TYPE_INT },
+		{ "ESP",     "esp",    true,  TYPE_DATA_POINTER },
+		{ "EBP",     "ebp",    true,  TYPE_DATA_POINTER },
+		{ "ESI",     "esi",    false, TYPE_INT },
+		{ "EDI",     "edi",    false, TYPE_INT },
+		{ "EIP",     "eip",    true,  TYPE_CODE_POINTER },
+		{ "EFLAGS",  "eflags", false, TYPE_INT }, // TODO TYPE_I386_EFLAGS
+		{ "CS",      "cs",     false, TYPE_INT },
+		{ "SS",      "ss",     false, TYPE_INT },
+		{ "DS",      "ds",     false, TYPE_INT },
+		{ "ES",      "es",     false, TYPE_INT },
+		{ "FS",      "fs",     false, TYPE_INT },
+		{ "GS",      "gs",     false, TYPE_INT },
+		// TODO fix x87 registers!
+		// The x87 registers are just plain wrong for a few reasons:
+		//  - The st* registers use a dummy variable in i386_device, so we
+		//    don't retrieve the real value (also the bitsize is wrong);
+		//  - The seg/off/op registers don't seem to be exported in the
+		//    state.
+		{ "ST0",     "st0",    false, TYPE_I387_EXT },
+		{ "ST1",     "st1",    false, TYPE_I387_EXT },
+		{ "ST2",     "st2",    false, TYPE_I387_EXT },
+		{ "ST3",     "st3",    false, TYPE_I387_EXT },
+		{ "ST4",     "st4",    false, TYPE_I387_EXT },
+		{ "ST5",     "st5",    false, TYPE_I387_EXT },
+		{ "ST6",     "st6",    false, TYPE_I387_EXT },
+		{ "ST7",     "st7",    false, TYPE_I387_EXT },
+		{ "x87_CW",  "fctrl",  false, TYPE_INT },
+		{ "x87_SW",  "fstat",  false, TYPE_INT },
+		{ "x87_TAG", "ftag",   false, TYPE_INT },
+		{ "EAX",     "fiseg",  false, TYPE_INT },
+		{ "EAX",     "fioff",  false, TYPE_INT },
+		{ "EAX",     "foseg",  false, TYPE_INT },
+		{ "EAX",     "fooff",  false, TYPE_INT },
+		{ "EAX",     "fop",    false, TYPE_INT },
+	}
 };
 
-static const std::map<std::string, const std::vector<gdb_register_map> &> gdb_register_maps = {
+static const std::map<std::string, const gdb_register_map &> gdb_register_maps = {
 	{ "i486", gdb_register_map_i486 },
 };
 
@@ -241,6 +251,8 @@ private:
 	};
 	std::vector<gdb_register> m_gdb_registers;
 	std::set<int> m_stop_reply_registers;
+	std::string m_gdb_arch;
+	std::string m_gdb_feature;
 
 	std::map<offs_t, uint64_t> m_address_map;
 
@@ -309,9 +321,8 @@ void debug_gdbstub::generate_target_xml(void)
 	target_xml += "<?xml version=\"1.0\"?>\n";
 	target_xml += "<!DOCTYPE target SYSTEM \"gdb-target.dtd\">\n";
 	target_xml += "<target version=\"1.0\">\n";
-	target_xml += "<architecture>i386</architecture>\n"; // TODO
-//	target_xml += string_format("  <feature name=\"mame.%s\">\n", m_maincpu->shortname());
-	target_xml += "  <feature name=\"org.gnu.gdb.i386.core\">\n";
+	target_xml += string_format("<architecture>%s</architecture>\n", m_gdb_arch.c_str());
+	target_xml += string_format("  <feature name=\"%s\">\n", m_gdb_feature.c_str());
 	for ( const auto &reg: m_gdb_registers )
 		if ( !reg.gdb_name.empty() )
 			target_xml += string_format("    <reg name=\"%s\" bitsize=\"%d\" type=\"%s\"/>\n", reg.gdb_name.c_str(), reg.gdb_bitsize, gdb_register_type_str[reg.gdb_type]);
@@ -345,8 +356,11 @@ void debug_gdbstub::wait_for_debugger(device_t &device, bool firststop)
 
 		m_is_be = m_address_space->endianness() == ENDIANNESS_BIG;
 
+		const gdb_register_map &register_map = it->second;
+		m_gdb_arch = register_map.arch;
+		m_gdb_feature = register_map.feature;
 		int cur_gdb_regnum = 0;
-		for ( const auto &reg: it->second )
+		for ( const auto &reg: register_map.registers )
 		{
 			bool added = false;
 			for ( const auto &entry: m_state->state_entries() )
