@@ -126,8 +126,36 @@ static const gdb_register_map gdb_register_map_i486 =
 	}
 };
 
+//-------------------------------------------------------------------------
+static const gdb_register_map gdb_register_map_arm7 =
+{
+	"arm",
+	"org.gnu.gdb.arm.core",
+	{
+		{ "R0",   "r0",   false, TYPE_INT },
+		{ "R1",   "r1",   false, TYPE_INT },
+		{ "R2",   "r2",   false, TYPE_INT },
+		{ "R3",   "r3",   false, TYPE_INT },
+		{ "R4",   "r4",   true,  TYPE_INT },
+		{ "R5",   "r5",   true,  TYPE_INT },
+		{ "R6",   "r6",   false, TYPE_INT },
+		{ "R7",   "r7",   false, TYPE_INT },
+		{ "R8",   "r8",   true,  TYPE_INT },
+		{ "R9",   "r9",   false, TYPE_INT },
+		{ "R10",  "r10",  false, TYPE_INT },
+		{ "R11",  "r11",  false, TYPE_INT },
+		{ "R12",  "r12",  false, TYPE_INT },
+		{ "R13",  "sp",   false, TYPE_DATA_POINTER },
+		{ "R14",  "lr",   false, TYPE_INT },
+		{ "R15",  "pc",   false, TYPE_CODE_POINTER },
+		{ "CPSR", "cpsr", false, TYPE_INT },
+	}
+};
+
+//-------------------------------------------------------------------------
 static const std::map<std::string, const gdb_register_map &> gdb_register_maps = {
-	{ "i486", gdb_register_map_i486 },
+	{ "i486",    gdb_register_map_i486 },
+	{ "arm7_le", gdb_register_map_arm7 },
 };
 
 enum cmd_reply
